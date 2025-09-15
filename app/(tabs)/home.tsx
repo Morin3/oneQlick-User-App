@@ -31,6 +31,7 @@ import {
 } from '../../components/home/homeData';
 import { DesignSystem } from '../../constants/designSystem';
 import { GlobalStyles } from '../../styles/globalStyles';
+import { AppIcon } from '../../components/ui';
 
 export default function HomeScreen() {
   const [refreshing, setRefreshing] = useState(false);
@@ -128,7 +129,7 @@ export default function HomeScreen() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <StatusBar barStyle="dark-content" backgroundColor="#ffffff" />
+      <StatusBar barStyle="dark-content" backgroundColor={DesignSystem.colors.background.primary} />
       
       <ScrollView 
         ref={scrollViewRef}
@@ -136,8 +137,8 @@ export default function HomeScreen() {
           <RefreshControl 
             refreshing={refreshing} 
             onRefresh={onRefresh}
-            colors={['#FF6B35']}
-            tintColor="#FF6B35"
+            colors={[DesignSystem.colors.primary[500]]}
+            tintColor={DesignSystem.colors.primary[500]}
           />
         }
         showsVerticalScrollIndicator={false}
@@ -154,7 +155,7 @@ export default function HomeScreen() {
         {/* Enhanced Search Bar Section */}
         <View style={styles.searchSection}>
           <Pressable style={styles.searchBar} onPress={() => router.push('/search')}>
-            <MaterialCommunityIcons name="magnify" size={20} color="#666" />
+            <AppIcon.Search size={20} color="#666" />
             <Text style={styles.searchText}>Search for restaurants, cuisines, dishes...</Text>
             <MaterialCommunityIcons name="microphone" size={18} color="#FF6B35" />
           </Pressable>
@@ -178,14 +179,14 @@ export default function HomeScreen() {
           <View style={styles.sectionHeader}>
             <View style={styles.titleContainer}>
               <View style={styles.titleRow}>
-                <MaterialCommunityIcons name="store" size={20} color="#FF6B35" />
+                <AppIcon.Restaurant size={20} color="#FF6B35" />
                 <Text style={styles.sectionTitle}>Restaurants Near You</Text>
               </View>
               <Text style={styles.sectionSubtitle}>Fastest delivery • Best rated</Text>
             </View>
             <Pressable style={styles.viewAllButton}>
               <Text style={styles.viewAllText}>View All</Text>
-              <MaterialCommunityIcons name="arrow-right" size={14} color="#FF6B35" />
+              <AppIcon.ArrowRight size={14} color="#FF6B35" />
             </Pressable>
           </View>
           
@@ -518,13 +519,14 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#ffffff',
+    backgroundColor: DesignSystem.colors.background.secondary,
   },
   scrollView: {
     flex: 1,
   },
   scrollContent: {
-    paddingBottom: 20,
+    paddingBottom: DesignSystem.spacing.lg,
+    flexGrow: 1,
   },
   searchSection: {
     paddingHorizontal: 16,

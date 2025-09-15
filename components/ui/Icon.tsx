@@ -16,6 +16,7 @@ import {
   Zocial,
   Foundation
 } from '@expo/vector-icons';
+import RNVIcon from 'react-native-vector-icons/MaterialIcons';
 import { DesignSystem } from '../../constants/designSystem';
 
 export type IconFamily = 
@@ -94,13 +95,25 @@ export default function Icon({
     });
   }
   
-  return React.createElement(IconComponent, { 
-    name: name as any, 
-    size: iconSize, 
-    color: color, 
-    style: style,
-    onPress: onPress
-  });
+  try {
+    return React.createElement(IconComponent, { 
+      name: name as any, 
+      size: iconSize, 
+      color: color, 
+      style: style,
+      onPress: onPress
+    });
+  } catch (error) {
+    // Fallback to react-native-vector-icons if expo vector icons fail
+    console.warn(`Icon "${name}" not found in ${family}. Falling back to react-native-vector-icons.`);
+    return React.createElement(RNVIcon, { 
+      name: name, 
+      size: iconSize, 
+      color: color, 
+      style: style,
+      onPress: onPress
+    });
+  }
 }
 
 // Pre-configured icon components for common use cases

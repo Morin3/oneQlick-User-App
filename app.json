@@ -3,48 +3,13 @@
     "name": "oneQlick",
     "slug": "oneqlick",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#FF6B35"
-    },
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.oneqlick.app",
-      "infoPlist": {
-        "NSLocationWhenInUseUsageDescription": "This app needs access to location to show nearby addresses and calculate delivery distances.",
-        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app needs access to location to show nearby addresses and calculate delivery distances."
-      }
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FF6B35"
-      },
-      "package": "com.oneqlick.app",
-      "permissions": [
-        "ACCESS_FINE_LOCATION",
-        "ACCESS_COARSE_LOCATION",
-        "CAMERA",
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE"
-      ]
-    },
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
-    "plugins": [
-      "expo-router",
-      "expo-location"
-    ],
-    "scheme": "oneqlick",
     "experiments": {
       "typedRoutes": true
     },

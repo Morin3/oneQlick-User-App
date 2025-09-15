@@ -310,14 +310,14 @@ export default function LoginScreen() {
   );
 
   return (
-    <SafeAreaView style={styles.container}>
+    <SafeAreaView style={[GlobalStyles.layout.container]}>
       <KeyboardAvoidingView 
         behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
-        style={styles.keyboardAvoidingView}
+        style={[GlobalStyles.layout.container]}
       >
         <ScrollView 
           ref={scrollViewRef}
-          contentContainerStyle={styles.scrollContent}
+          contentContainerStyle={[GlobalStyles.layout.containerPadded]}
           showsVerticalScrollIndicator={false}
           keyboardShouldPersistTaps="handled"
         >

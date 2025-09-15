@@ -21,6 +21,9 @@ import { useRouter, useLocalSearchParams } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { MaterialIcons } from '@expo/vector-icons';
 import { useCart } from '../../hooks/useCartZustand';
+import { DesignSystem } from '../../constants/designSystem';
+import { GlobalStyles } from '../../styles/globalStyles';
+import { AppIcon, AppButton, useAppToast } from '../../components/ui';
 
 const { width, height } = Dimensions.get('window');
 

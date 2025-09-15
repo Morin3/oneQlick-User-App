@@ -8,6 +8,7 @@ import { CarouselItem } from './carouselData';
 const { width: screenWidth } = Dimensions.get('window');
 const CARD_WIDTH = screenWidth - 32;
 const CARD_MARGIN = 8;
+const TOTAL_CARD_WIDTH = CARD_WIDTH + CARD_MARGIN * 2;
 
 interface CarouselProps {
   items: CarouselItem[];
@@ -29,7 +30,7 @@ export default function Carousel({ items, currentIndex, onItemChange, onItemPres
       onItemChange(nextIndex);
       
       scrollViewRef.current?.scrollTo({
-        x: nextIndex * (CARD_WIDTH + CARD_MARGIN * 2),
+        x: nextIndex * TOTAL_CARD_WIDTH,
         animated: true,
       });
     }, 4000); // Change slide every 4 seconds
@@ -39,7 +40,7 @@ export default function Carousel({ items, currentIndex, onItemChange, onItemPres
 
   const handleScroll = (event: any) => {
     const scrollPosition = event.nativeEvent.contentOffset.x;
-    const index = Math.round(scrollPosition / (CARD_WIDTH + CARD_MARGIN * 2));
+    const index = Math.round(scrollPosition / TOTAL_CARD_WIDTH);
     
     if (index !== currentIndex && index >= 0 && index < items.length) {
       onItemChange(index);
@@ -131,7 +132,7 @@ export default function Carousel({ items, currentIndex, onItemChange, onItemPres
         onTouchEnd={handleTouchEnd}
         scrollEventThrottle={16}
         decelerationRate="fast"
-        snapToInterval={CARD_WIDTH + CARD_MARGIN * 2}
+        snapToInterval={TOTAL_CARD_WIDTH}
         snapToAlignment="start"
         contentInsetAdjustmentBehavior="never"
       >
@@ -158,6 +159,7 @@ export default function Carousel({ items, currentIndex, onItemChange, onItemPres
 const styles = StyleSheet.create({
   container: {
     marginBottom: 24,
+    overflow: 'hidden',
   },
   carouselCard: {
     width: CARD_WIDTH,
