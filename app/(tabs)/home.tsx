@@ -13,7 +13,7 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { useCart } from '../../hooks/useCart';
+import { useCart } from '../../hooks/useCartZustand';
 import { FoodItem } from '../../types';
 import { getCurrentLocation } from '../../utils/locationUtils';
 import {

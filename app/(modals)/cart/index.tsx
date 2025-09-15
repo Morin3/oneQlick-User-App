@@ -11,7 +11,7 @@ import {
 import { useRouter, useFocusEffect } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
-import { useCart } from '../../../hooks/useCart';
+import { useCart } from '../../../hooks/useCartZustand';
 import { cartData, availableCoupons } from './cartData';
 import { getCurrentLocation } from '../../../utils/locationUtils';
 
