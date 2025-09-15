@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
 import { Button as PaperButton, ButtonProps } from 'react-native-paper';
+import { DesignSystem } from '../../constants/designSystem';
 
 interface CustomButtonProps extends ButtonProps {
   variant?: 'primary' | 'secondary' | 'outline';
@@ -38,38 +39,38 @@ export default function Button({
 
 const styles = StyleSheet.create({
   button: {
-    borderRadius: 8,
+    borderRadius: DesignSystem.borderRadius.md,
   },
   primary: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: DesignSystem.colors.primary[500],
   },
   secondary: {
-    backgroundColor: '#4ECDC4',
+    backgroundColor: DesignSystem.colors.secondary[500],
   },
   outline: {
     backgroundColor: 'transparent',
     borderWidth: 1,
-    borderColor: '#FF6B35',
+    borderColor: DesignSystem.colors.primary[500],
   },
   small: {
-    minHeight: 36,
+    minHeight: DesignSystem.sizes.button.sm,
   },
   medium: {
-    minHeight: 44,
+    minHeight: DesignSystem.sizes.button.md,
   },
   large: {
-    minHeight: 52,
+    minHeight: DesignSystem.sizes.button.lg,
   },
   content: {
-    paddingHorizontal: 16,
+    paddingHorizontal: DesignSystem.spacing.md,
   },
   smallContent: {
-    paddingVertical: 6,
+    paddingVertical: DesignSystem.spacing.xs,
   },
   mediumContent: {
-    paddingVertical: 8,
+    paddingVertical: DesignSystem.spacing.sm,
   },
   largeContent: {
-    paddingVertical: 12,
+    paddingVertical: DesignSystem.spacing.md,
   },
 }); 

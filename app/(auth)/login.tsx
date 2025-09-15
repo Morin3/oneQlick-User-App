@@ -18,6 +18,8 @@ import { MaterialIcons } from '@expo/vector-icons';
 import { isValidEmail, isValidPhone, isValidPhoneWithCountry } from '../../utils/helpers';
 import { PhoneNumberInput } from '../../components/common';
 import { CountryCode } from '../../utils/countryCodes';
+import { DesignSystem } from '../../constants/designSystem';
+import { GlobalStyles } from '../../styles/globalStyles';
 
 type LoginMethod = 'email' | 'phone' | 'otp';
 

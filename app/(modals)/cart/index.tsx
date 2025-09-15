@@ -14,6 +14,8 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useCart } from '../../../hooks/useCartZustand';
 import { cartData, availableCoupons } from './cartData';
 import { getCurrentLocation } from '../../../utils/locationUtils';
+import { DesignSystem } from '../../../constants/designSystem';
+import { GlobalStyles } from '../../../styles/globalStyles';
 
 export default function CartScreen() {
   const router = useRouter();

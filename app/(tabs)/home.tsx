@@ -29,6 +29,8 @@ import {
   nearbyRestaurants,
   popularDishes,
 } from '../../components/home/homeData';
+import { DesignSystem } from '../../constants/designSystem';
+import { GlobalStyles } from '../../styles/globalStyles';
 
 export default function HomeScreen() {
   const [refreshing, setRefreshing] = useState(false);

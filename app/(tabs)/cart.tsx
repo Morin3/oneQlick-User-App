@@ -4,7 +4,7 @@ import { useRouter } from 'expo-router';
 export default function CartTab() {
   const router = useRouter();
 
-  useEffect(() => {
+  useEffect(() => { 
     // Redirect to cart modal when this tab is accessed
     router.replace('/(modals)/cart');
   }, []);

@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, ViewStyle } from 'react-native';
 import { Surface, SurfaceProps } from 'react-native-paper';
+import { DesignSystem } from '../../constants/designSystem';
 
 interface CardProps extends SurfaceProps {
   variant?: 'default' | 'elevated' | 'outlined';
@@ -51,42 +52,42 @@ export default function Card({
 
 const styles = StyleSheet.create({
   card: {
-    borderRadius: 12,
-    backgroundColor: 'white',
+    borderRadius: DesignSystem.borderRadius.lg,
+    backgroundColor: DesignSystem.colors.background.primary,
   },
   default: {
-    elevation: 1,
+    ...DesignSystem.shadows.sm,
   },
   elevated: {
-    elevation: 4,
+    ...DesignSystem.shadows.lg,
   },
   outlined: {
-    elevation: 0,
+    ...DesignSystem.shadows.none,
     borderWidth: 1,
-    borderColor: '#e0e0e0',
+    borderColor: DesignSystem.colors.border.light,
   },
   paddingNone: {
     padding: 0,
   },
   paddingSmall: {
-    padding: 12,
+    padding: DesignSystem.spacing.sm,
   },
   paddingMedium: {
-    padding: 16,
+    padding: DesignSystem.spacing.md,
   },
   paddingLarge: {
-    padding: 20,
+    padding: DesignSystem.spacing.lg,
   },
   marginNone: {
     margin: 0,
   },
   marginSmall: {
-    margin: 8,
+    margin: DesignSystem.spacing.sm,
   },
   marginMedium: {
-    margin: 16,
+    margin: DesignSystem.spacing.md,
   },
   marginLarge: {
-    margin: 24,
+    margin: DesignSystem.spacing.lg,
   },
 }); 

@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, StyleSheet, ViewStyle } from 'react-native';
 import { Text } from 'react-native-paper';
+import { DesignSystem } from '../../constants/designSystem';
 
 interface BadgeProps {
   children: React.ReactNode;
@@ -33,54 +34,54 @@ export default function Badge({
 
 const styles = StyleSheet.create({
   badge: {
-    borderRadius: 12,
+    borderRadius: DesignSystem.borderRadius.full,
     alignItems: 'center',
     justifyContent: 'center',
   },
   primary: {
-    backgroundColor: '#FF6B35',
+    backgroundColor: DesignSystem.colors.primary[500],
   },
   secondary: {
-    backgroundColor: '#4ECDC4',
+    backgroundColor: DesignSystem.colors.secondary[500],
   },
   success: {
-    backgroundColor: '#4CAF50',
+    backgroundColor: DesignSystem.colors.success,
   },
   warning: {
-    backgroundColor: '#FF9800',
+    backgroundColor: DesignSystem.colors.warning,
   },
   error: {
-    backgroundColor: '#F44336',
+    backgroundColor: DesignSystem.colors.error,
   },
   small: {
-    paddingHorizontal: 8,
-    paddingVertical: 4,
+    paddingHorizontal: DesignSystem.spacing.xs,
+    paddingVertical: 2,
     minWidth: 20,
     height: 20,
   },
   medium: {
-    paddingHorizontal: 12,
-    paddingVertical: 6,
+    paddingHorizontal: DesignSystem.spacing.sm,
+    paddingVertical: 4,
     minWidth: 24,
     height: 24,
   },
   large: {
-    paddingHorizontal: 16,
-    paddingVertical: 8,
+    paddingHorizontal: DesignSystem.spacing.md,
+    paddingVertical: 6,
     minWidth: 32,
     height: 32,
   },
   text: {
-    color: 'white',
-    fontWeight: 'bold',
+    color: DesignSystem.colors.text.inverse,
+    fontWeight: DesignSystem.typography.fontWeight.semibold,
   },
   smallText: {
-    fontSize: 10,
+    fontSize: DesignSystem.typography.fontSize.xs,
   },
   mediumText: {
-    fontSize: 12,
+    fontSize: DesignSystem.typography.fontSize.sm,
   },
   largeText: {
-    fontSize: 14,
+    fontSize: DesignSystem.typography.fontSize.base,
   },
 }); 
