@@ -4,7 +4,6 @@ import {
   StyleSheet, 
   ScrollView, 
   RefreshControl, 
-  SafeAreaView,
   StatusBar,
   Alert,
   Pressable 
@@ -13,6 +12,7 @@ import { Text } from 'react-native-paper';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { LinearGradient } from 'expo-linear-gradient';
 import { useRouter } from 'expo-router';
+import { SafeAreaView } from 'react-native-safe-area-context';
 import { useCart } from '../../hooks/useCart';
 import { FoodItem } from '../../types';
 import { getCurrentLocation } from '../../utils/locationUtils';
@@ -32,7 +32,6 @@ import {
 
 export default function HomeScreen() {
   const [refreshing, setRefreshing] = useState(false);
-  const [currentBannerIndex, setCurrentBannerIndex] = useState(0);
   const [currentCarouselIndex, setCurrentCarouselIndex] = useState(0);
   const [userLocation, setUserLocation] = useState('Getting your location...');
   const [currentCoordinates, setCurrentCoordinates] = useState<{latitude: number, longitude: number} | null>(null);
@@ -110,7 +109,7 @@ export default function HomeScreen() {
           'Please turn on your device location and try again.',
           [
             { text: 'Cancel', style: 'cancel' },
-            { text: 'Try Again', onPress: handleLocationPress }
+            { text: 'Try Again', onPress: () => handleLocationPress() }
           ]
         );
       }
@@ -411,18 +410,102 @@ export default function HomeScreen() {
           </ScrollView>
         </View>
 
-        {/* Made for India Section */}
-        <View style={styles.madeInIndiaSection}>
-          <View style={styles.brandContainer}>
-            <MaterialCommunityIcons name="map-marker" size={20} color="#FF6B35" />
-            <Text style={styles.brandTitle}>Made for India</Text>
-            <MaterialCommunityIcons name="heart" size={16} color="#E91E63" />
+        {/* Enhanced Made in India Footer Section */}
+        <View style={styles.enhancedFooterSection}>
+          {/* Background Pattern */}
+          <View style={styles.patternBackground}>
+            <View style={styles.patternDot} />
+            <View style={[styles.patternDot, { top: 20, left: 40 }]} />
+            <View style={[styles.patternDot, { top: 60, left: 80 }]} />
+            <View style={[styles.patternDot, { top: 40, right: 30 }]} />
+            <View style={[styles.patternDot, { top: 80, right: 70 }]} />
+            <View style={[styles.patternDot, { bottom: 40, left: 60 }]} />
+            <View style={[styles.patternDot, { bottom: 20, right: 50 }]} />
           </View>
-          <Text style={styles.brandSubtitle}>Crafted in Konkan, served with passion</Text>
-          <View style={styles.brandFooter}>
-            <MaterialCommunityIcons name="food-variant" size={14} color="#4CAF50" />
-            <Text style={styles.brandFooterText}>Authentic • Fresh • Local</Text>
-            <MaterialCommunityIcons name="leaf" size={14} color="#4CAF50" />
+
+          {/* Main Content Container */}
+          <View style={styles.footerContentContainer}>
+            
+            {/* Hashtag Section */}
+            <View style={styles.hashtagSection}>
+              <Text style={styles.enhancedHashtag}>#goOneQlick</Text>
+              <View style={styles.hashtagUnderline} />
+            </View>
+
+            {/* Brand Identity Section */}
+            <View style={styles.brandIdentitySection}>
+              
+              {/* Made in India */}
+              <View style={styles.madeInIndiaContainer}>
+                <View style={styles.flagIconContainer}>
+                  <Text style={styles.flagIcon}>🇮🇳</Text>
+                </View>
+                <View style={styles.madeInIndiaText}>
+                  <Text style={styles.madeInIndiaTitle}>Made in India</Text>
+                  <View style={styles.madeInIndiaSubtitleContainer}>
+                    <View style={styles.subtitleDot} />
+                    <Text style={styles.madeInIndiaSubtitle}>Proudly Indian</Text>
+                    <View style={styles.subtitleDot} />
+                  </View>
+                </View>
+              </View>
+
+              {/* Crafted in Konkan */}
+              <View style={styles.craftedInContainer}>
+                <View style={styles.heartIconContainer}>
+                  <Text style={styles.heartIcon}>❤️</Text>
+                </View>
+                <View style={styles.craftedInText}>
+                  <Text style={styles.craftedInTitle}>Crafted in Konkan</Text>
+                  <View style={styles.craftedInSubtitleContainer}>
+                    <View style={styles.subtitleDot} />
+                    <Text style={styles.craftedInSubtitle}>With love & passion</Text>
+                    <View style={styles.subtitleDot} />
+                  </View>
+                </View>
+              </View>
+
+            </View>
+
+            {/* Values Section */}
+            <View style={styles.valuesSection}>
+              <View style={styles.valueItem}>
+                <View style={styles.valueIcon}>
+                  <Text style={styles.valueEmoji}>🌱</Text>
+                </View>
+                <Text style={styles.valueText}>Authentic</Text>
+              </View>
+              
+              <View style={styles.valueDivider} />
+              
+              <View style={styles.valueItem}>
+                <View style={styles.valueIcon}>
+                  <Text style={styles.valueEmoji}>✨</Text>
+                </View>
+                <Text style={styles.valueText}>Fresh</Text>
+              </View>
+              
+              <View style={styles.valueDivider} />
+              
+              <View style={styles.valueItem}>
+                <View style={styles.valueIcon}>
+                  <Text style={styles.valueEmoji}>🏠</Text>
+                </View>
+                <Text style={styles.valueText}>Local</Text>
+              </View>
+            </View>
+
+            {/* Footer Bottom */}
+            <View style={styles.footerBottom}>
+              <View style={styles.footerBottomLine} />
+              <Text style={styles.footerBottomText}>Bringing India's flavors to your doorstep</Text>
+              <View style={styles.footerBottomDots}>
+                <View style={styles.bottomDot} />
+                <View style={styles.bottomDot} />
+                <View style={styles.bottomDot} />
+              </View>
+            </View>
+
           </View>
         </View>
       </ScrollView>
@@ -638,7 +721,6 @@ const styles = StyleSheet.create({
   offerIconContainer: {
     opacity: 0.3,
   },
-
   featuresSection: {
     backgroundColor: 'white',
     paddingVertical: 24,
@@ -687,7 +769,6 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     fontWeight: '500',
   },
-
   testimonialSection: {
     backgroundColor: 'white',
     paddingVertical: 24,
@@ -765,44 +846,234 @@ const styles = StyleSheet.create({
     color: '#666',
     fontWeight: '500',
   },
-
-  madeInIndiaSection: {
-    backgroundColor: 'white',
-    paddingVertical: 24,
-    paddingHorizontal: 16,
-    alignItems: 'center',
+// Enhanced Footer Section Styles
+  enhancedFooterSection: {
+    backgroundColor: '#f8f9fc',
+    paddingVertical: 40,
+    paddingHorizontal: 20,
+    position: 'relative',
+    overflow: 'hidden',
     borderTopWidth: 1,
-    borderTopColor: '#f0f0f0',
+    borderTopColor: '#e8eaed',
   },
-  brandContainer: {
+  patternBackground: {
+    position: 'absolute',
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+  },
+  patternDot: {
+    position: 'absolute',
+    width: 8,
+    height: 8,
+    borderRadius: 4,
+    backgroundColor: '#FF6B35',
+    opacity: 0.1,
+    top: 30,
+    left: 20,
+  },
+  footerContentContainer: {
+    alignItems: 'center',
+    zIndex: 2,
+  },
+  hashtagSection: {
+    alignItems: 'center',
+    marginBottom: 30,
+  },
+  enhancedHashtag: {
+    fontSize: 24,
+    fontWeight: '900',
+    color: '#FF6B35',
+    letterSpacing: 1.5,
+    marginBottom: 8,
+  },
+  hashtagUnderline: {
+    width: 60,
+    height: 3,
+    backgroundColor: '#FF6B35',
+    borderRadius: 2,
+    opacity: 0.6,
+  },
+  brandIdentitySection: {
+    width: '100%',
+    marginBottom: 30,
+    gap: 20,
+  },
+  madeInIndiaContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'white',
+    paddingVertical: 16,
+    paddingHorizontal: 20,
+    borderRadius: 16,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.08,
+    shadowRadius: 8,
+    elevation: 3,
+    gap: 15,
+  },
+  flagIconContainer: {
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    backgroundColor: '#FFF3E0',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 2,
+    borderColor: '#FFE0B2',
+  },
+  flagIcon: {
+    fontSize: 20,
+  },
+  madeInIndiaText: {
+    flex: 1,
+    alignItems: 'flex-start',
+  },
+  madeInIndiaTitle: {
+    fontSize: 18,
+    fontWeight: '800',
+    color: '#1a1a1a',
+    marginBottom: 4,
+  },
+  madeInIndiaSubtitleContainer: {
     flexDirection: 'row',
     alignItems: 'center',
     gap: 8,
-    marginBottom: 8,
   },
-  brandTitle: {
-    fontSize: 17,
-    fontWeight: '700',
-    color: '#1a1a1a',
-    letterSpacing: 0.5,
+  subtitleDot: {
+    width: 4,
+    height: 4,
+    borderRadius: 2,
+    backgroundColor: '#FF6B35',
+    opacity: 0.6,
   },
-  brandSubtitle: {
+  madeInIndiaSubtitle: {
     fontSize: 13,
     color: '#666',
-    fontWeight: '500',
-    textAlign: 'center',
-    marginBottom: 12,
-    fontStyle: 'italic',
+    fontWeight: '600',
   },
-  brandFooter: {
+  craftedInContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 6,
+    justifyContent: 'center',
+    backgroundColor: 'white',
+    paddingVertical: 16,
+    paddingHorizontal: 20,
+    borderRadius: 16,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.08,
+    shadowRadius: 8,
+    elevation: 3,
+    gap: 15,
   },
-  brandFooterText: {
-    fontSize: 11,
+  heartIconContainer: {
+    width: 44,
+    height: 44,
+    borderRadius: 22,
+    backgroundColor: '#FFEBEE',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 2,
+    borderColor: '#FFCDD2',
+  },
+  heartIcon: {
+    fontSize: 20,
+  },
+  craftedInText: {
+    flex: 1,
+    alignItems: 'flex-start',
+  },
+  craftedInTitle: {
+    fontSize: 18,
+    fontWeight: '800',
+    color: '#1a1a1a',
+    marginBottom: 4,
+  },
+  craftedInSubtitleContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
+  craftedInSubtitle: {
+    fontSize: 13,
     color: '#666',
     fontWeight: '600',
-    letterSpacing: 0.3,
   },
-}); 
+  valuesSection: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'white',
+    paddingVertical: 20,
+    paddingHorizontal: 30,
+    borderRadius: 20,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.08,
+    shadowRadius: 8,
+    elevation: 3,
+    marginBottom: 25,
+    gap: 20,
+  },
+  valueItem: {
+    alignItems: 'center',
+    gap: 8,
+  },
+  valueIcon: {
+    width: 36,
+    height: 36,
+    borderRadius: 18,
+    backgroundColor: '#f8f9fa',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: '#e9ecef',
+  },
+  valueEmoji: {
+    fontSize: 16,
+  },
+  valueText: {
+    fontSize: 13,
+    fontWeight: '700',
+    color: '#333',
+    textAlign: 'center',
+  },
+  valueDivider: {
+    width: 1,
+    height: 30,
+    backgroundColor: '#e9ecef',
+    opacity: 0.5,
+  },
+  footerBottom: {
+    alignItems: 'center',
+    gap: 12,
+  },
+  footerBottomLine: {
+    width: 120,
+    height: 1,
+    backgroundColor: '#dee2e6',
+    marginBottom: 8,
+  },
+  footerBottomText: {
+    fontSize: 14,
+    color: '#6c757d',
+    fontWeight: '500',
+    textAlign: 'center',
+    letterSpacing: 0.5,
+  },
+  footerBottomDots: {
+    flexDirection: 'row',
+    gap: 8,
+    marginTop: 4,
+  },
+  bottomDot: {
+    width: 6,
+    height: 6,
+    borderRadius: 3,
+    backgroundColor: '#FF6B35',
+    opacity: 0.4,
+  },});
