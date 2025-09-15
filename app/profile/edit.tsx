@@ -3,7 +3,7 @@ import { ScrollView, View, StyleSheet, Alert } from 'react-native';
 import { TextInput, Avatar, Button, Surface, Text } from 'react-native-paper';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
-import { useAuth } from '../../hooks/useAuth';
+import { useAuth } from '../../hooks/useAuthZustand';
 import { PhoneNumberInput } from '../../components/common';
 import { CountryCode } from '../../utils/countryCodes';
 

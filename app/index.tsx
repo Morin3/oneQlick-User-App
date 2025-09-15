@@ -2,21 +2,17 @@ import { useEffect, useState } from 'react';
 import { View, ActivityIndicator } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useAuth } from '../hooks/useAuthZustand';
+import { useAppStore } from '../store/appStore';
 import { Text } from 'react-native-paper';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 
 export default function Index() {
   const router = useRouter();
   const { isAuthenticated, isLoading } = useAuth();
-  const [hasSeenOnboarding, setHasSeenOnboarding] = useState<boolean | null>(null);
+  const { isOnboardingComplete, isFirstLaunch } = useAppStore();
 
   useEffect(() => {
-    checkOnboardingStatus();
-  }, []);
-
-  useEffect(() => {
-    if (hasSeenOnboarding !== null && !isLoading) {
-      if (!hasSeenOnboarding) {
+    if (!isLoading) {
+      if (isFirstLaunch || !isOnboardingComplete) {
         // First time user - show onboarding
         router.replace('/onboarding');
       } else if (isAuthenticated) {
@@ -27,19 +23,9 @@ export default function Index() {
         router.replace('/(auth)/login');
       }
     }
-  }, [hasSeenOnboarding, isAuthenticated, isLoading, router]);
+  }, [isOnboardingComplete, isFirstLaunch, isAuthenticated, isLoading, router]);
 
-  const checkOnboardingStatus = async () => {
-    try {
-      const onboardingComplete = await AsyncStorage.getItem('onboardingComplete');
-      setHasSeenOnboarding(onboardingComplete === 'true');
-    } catch (error) {
-      console.error('Error checking onboarding status:', error);
-      setHasSeenOnboarding(false);
-    }
-  };
-
-  if (isLoading || hasSeenOnboarding === null) {
+  if (isLoading) {
     return (
       <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: '#FF6B35' }}>
         <ActivityIndicator size="large" color="white" />

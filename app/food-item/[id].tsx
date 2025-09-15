@@ -20,7 +20,7 @@ import {
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { MaterialIcons } from '@expo/vector-icons';
-import { useCart } from '../../hooks/useCart';
+import { useCart } from '../../hooks/useCartZustand';
 
 const { width, height } = Dimensions.get('window');
 

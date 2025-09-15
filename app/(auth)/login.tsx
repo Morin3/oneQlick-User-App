@@ -12,7 +12,7 @@ import {
   HelperText
 } from 'react-native-paper';
 import { useRouter } from 'expo-router';
-import { useAuth } from '../../hooks/useAuth';
+import { useAuth } from '../../hooks/useAuthZustand';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { MaterialIcons } from '@expo/vector-icons';
 import { isValidEmail, isValidPhone, isValidPhoneWithCountry } from '../../utils/helpers';

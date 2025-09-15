@@ -3,8 +3,8 @@ import { View, StyleSheet, Platform, Animated, Pressable, Text } from 'react-nat
 import { Tabs } from 'expo-router';
 import { MaterialIcons } from '@expo/vector-icons';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { useCart } from '../../hooks/useCart';
-import { useAuth } from '../../hooks/useAuth';
+import { useCart } from '../../hooks/useCartZustand';
+import { useAuth } from '../../hooks/useAuthZustand';
 import { Surface } from 'react-native-paper';
 
 // Custom tab bar component with badges and animations
