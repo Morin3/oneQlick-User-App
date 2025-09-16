@@ -8,4 +8,7 @@ export * from './restaurant';
 export * from './common';
 
 // UI components
-export * from './ui'; 
+export * from './ui';
+
+// Coupon components
+export * from './coupons'; 

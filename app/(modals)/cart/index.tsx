@@ -12,19 +12,18 @@ import { useRouter, useFocusEffect } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { useCart } from '../../../hooks/useCartZustand';
-import { cartData, availableCoupons } from './cartData';
+import { availableCoupons } from './cartData';
 import { getCurrentLocation } from '../../../utils/locationUtils';
-import { DesignSystem } from '../../../constants/designSystem';
-import { GlobalStyles } from '../../../styles/globalStyles';
-import { AppIcon, AppButton, useAppToast } from '../../../components/ui';
+import { CouponTags, ViewAllCouponsModal } from '../../../components/coupons';
 
 export default function CartScreen() {
   const router = useRouter();
-  const { cart, removeFromCart, updateQuantity, clearCart } = useCart();
+  const { cart, removeFromCart, updateQuantity } = useCart();
   
   const [appliedCoupon, setAppliedCoupon] = useState<any>(null);
   const [userLocation, setUserLocation] = useState('Getting your location...');
   const [isLoadingLocation, setIsLoadingLocation] = useState(true);
+  const [showViewAllCoupons, setShowViewAllCoupons] = useState(false);
   
   const displayCart = cart;
   const deliveryTime = '25-30 mins';
@@ -68,16 +67,20 @@ export default function CartScreen() {
       'Get your precise location for accurate delivery and nearby restaurant suggestions.',
       [
         { text: 'Cancel', style: 'cancel' },
-        { text: 'Detect My Location', onPress: async () => {
+        { text: 'Detect My Location', onPress: () => {
           setIsLoadingLocation(true);
           setUserLocation('Getting your location...');
-          try {
-            const locationData = await getCurrentLocation();
-            setUserLocation(locationData.displayName);
-          } catch (error) {
-            setUserLocation('Tap to set your location');
-          }
-          setIsLoadingLocation(false);
+          getCurrentLocation()
+            .then((locationData) => {
+              setUserLocation(locationData.displayName);
+            })
+            .catch((error) => {
+              console.error('Location error:', error);
+              setUserLocation('Tap to set your location');
+            })
+            .finally(() => {
+              setIsLoadingLocation(false);
+            });
         }},
         { text: 'Enter Manually', onPress: () => {
           Alert.alert('Coming Soon', 'Manual location entry will be available soon!');
@@ -139,6 +142,14 @@ export default function CartScreen() {
     setAppliedCoupon(coupon);
   };
 
+  const handleRemoveCoupon = () => {
+    setAppliedCoupon(null);
+  };
+
+  const handleViewAllCoupons = () => {
+    setShowViewAllCoupons(true);
+  };
+
 
 
   const handleProceedToCheckout = () => {
@@ -149,12 +160,6 @@ export default function CartScreen() {
     router.push('/checkout');
   };
 
-    // Get eligible coupons for display
-  const getEligibleCoupons = () => {
-    return availableCoupons.filter(coupon => bill.subtotal >= coupon.minOrder).slice(0, 2);
-  };
-
-  const eligibleCoupons = getEligibleCoupons();
 
   // Empty cart
   if (displayCart.items.length === 0) {
@@ -234,49 +239,16 @@ export default function CartScreen() {
         </View>
 
         {/* Available Coupons */}
-        <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Coupons</Text>
-          
-          {/* Quick Apply Coupons */}
-          {eligibleCoupons.length > 0 && (
-            <View style={styles.quickCouponsContainer}>
-              <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-                {eligibleCoupons.map((coupon, index) => (
-                  <Pressable 
-                    key={index} 
-                    style={[styles.quickCouponCard, appliedCoupon?.code === coupon.code && styles.appliedQuickCoupon]}
-                    onPress={() => appliedCoupon?.code === coupon.code ? setAppliedCoupon(null) : handleApplyCoupon(coupon)}
-                  >
-                    <View style={styles.quickCouponHeader}>
-                      <MaterialCommunityIcons name="tag" size={16} color="#FF6B35" />
-                      <Text style={styles.quickCouponCode}>{coupon.code}</Text>
-                      {appliedCoupon?.code === coupon.code && (
-                        <MaterialCommunityIcons name="check-circle" size={16} color="#4CAF50" />
-                      )}
-                    </View>
-                    <Text style={styles.quickCouponOffer}>
-                      {coupon.type === 'percentage' ? `${coupon.discount}% OFF` : `₹${coupon.discount} OFF`}
-                    </Text>
-                    <Text style={styles.quickCouponDesc} numberOfLines={2}>
-                      {coupon.description}
-                    </Text>
-                  </Pressable>
-                ))}
-              </ScrollView>
-            </View>
-          )}
-
-          {/* Applied Coupon Display */}
-          {appliedCoupon && (
-            <View style={styles.appliedCouponBox}>
-              <MaterialCommunityIcons name="check-circle" size={20} color="#4CAF50" />
-              <Text style={styles.appliedCouponText}>{appliedCoupon.code} applied • Saved ₹{bill.discount}</Text>
-              <Pressable onPress={() => setAppliedCoupon(null)}>
-                <MaterialCommunityIcons name="close" size={20} color="#666" />
-              </Pressable>
-            </View>
-          )}
-        </View>
+        <CouponTags
+          coupons={availableCoupons}
+          appliedCoupon={appliedCoupon}
+          onApplyCoupon={handleApplyCoupon}
+          onRemoveCoupon={handleRemoveCoupon}
+          onViewAll={handleViewAllCoupons}
+          showViewAll={true}
+          maxVisible={3}
+          context="cart"
+        />
 
         {/* Time taking for delivery */}
         <View style={styles.section}>
@@ -347,6 +319,17 @@ export default function CartScreen() {
           <Text style={styles.payBtnText}>Pay ₹{bill.total.toFixed(0)} & Place Order</Text>
         </Pressable>
       </View>
+
+      {/* View All Coupons Modal */}
+      <ViewAllCouponsModal
+        visible={showViewAllCoupons}
+        onClose={() => setShowViewAllCoupons(false)}
+        coupons={availableCoupons}
+        appliedCoupon={appliedCoupon}
+        onApplyCoupon={handleApplyCoupon}
+        onRemoveCoupon={handleRemoveCoupon}
+        currentOrderValue={bill.subtotal}
+      />
     </SafeAreaView>
   );
 }
