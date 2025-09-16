@@ -1,0 +1,184 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 24 min SDK version: arm64-v8a",
+    "file_": "C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\android\\app\\.cxx\\RelWithDebInfo\\6f216z2r\\arm64-v8a\\android_gradle_build.json due to:",
+    "file_": "C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "- no fingerprint file, will remove stale configuration folder",
+    "file_": "C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "@echo off\n\"C:\\\\Program Files\\\\Java\\\\jdk-21\\\\bin\\\\java\" ^\n  --class-path ^\n  \"C:\\\\Users\\\\kotwa\\\\.gradle\\\\caches\\\\modules-2\\\\files-2.1\\\\com.google.prefab\\\\cli\\\\2.1.0\\\\aa32fec809c44fa531f01dcfb739b5b3304d3050\\\\cli-2.1.0-all.jar\" ^\n  com.google.prefab.cli.AppKt ^\n  --build-system ^\n  cmake ^\n  --platform ^\n  android ^\n  --abi ^\n  arm64-v8a ^\n  --os-version ^\n  24 ^\n  --stl ^\n  c++_shared ^\n  --ndk-version ^\n  27 ^\n  --output ^\n  \"C:\\\\Users\\\\kotwa\\\\AppData\\\\Local\\\\Temp\\\\agp-prefab-staging17191693075379289075\\\\staged-cli-output\" ^\n  \"C:\\\\Users\\\\kotwa\\\\.gradle\\\\caches\\\\8.14.3\\\\transforms\\\\19ebc5d0feddf2006ae4bd8bc7f6c8b4\\\\transformed\\\\react-android-0.81.4-release\\\\prefab\" ^\n  \"C:\\\\Users\\\\kotwa\\\\OneDrive\\\\Desktop\\\\ONE-QLICK\\\\oneQlick-User-App\\\\android\\\\app\\\\build\\\\intermediates\\\\cxx\\\\refs\\\\react-native-reanimated\\\\1m6p584o\" ^\n  \"C:\\\\Users\\\\kotwa\\\\OneDrive\\\\Desktop\\\\ONE-QLICK\\\\oneQlick-User-App\\\\android\\\\app\\\\build\\\\intermediates\\\\cxx\\\\refs\\\\react-native-worklets\\\\6z5thmi3\" ^\n  \"C:\\\\Users\\\\kotwa\\\\.gradle\\\\caches\\\\8.14.3\\\\transforms\\\\d8d85eea07b70d0a756d35390e1aea37\\\\transformed\\\\hermes-android-0.81.4-release\\\\prefab\" ^\n  \"C:\\\\Users\\\\kotwa\\\\.gradle\\\\caches\\\\8.14.3\\\\transforms\\\\1b1a3927c32b2f6141fd2ce3de18a57c\\\\transformed\\\\fbjni-0.7.0\\\\prefab\"\n",
+    "file_": "C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "Received process result: 0",
+    "file_": "C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\android\\app\\.cxx\\RelWithDebInfo\\6f216z2r\\arm64-v8a\u0027",
+    "file_": "C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\android\\app\\.cxx\\RelWithDebInfo\\6f216z2r\\arm64-v8a\u0027",
+    "file_": "C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake @echo off\n\"C:\\\\Users\\\\kotwa\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.22.1\\\\bin\\\\cmake.exe\" ^\n  \"-HC:\\\\Users\\\\kotwa\\\\OneDrive\\\\Desktop\\\\ONE-QLICK\\\\oneQlick-User-App\\\\node_modules\\\\react-native\\\\ReactAndroid\\\\cmake-utils\\\\default-app-setup\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d24\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-24\" ^\n  \"-DANDROID_ABI\u003darm64-v8a\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\" ^\n  \"-DANDROID_NDK\u003dC:\\\\Users\\\\kotwa\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\27.1.12297006\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dC:\\\\Users\\\\kotwa\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\27.1.12297006\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dC:\\\\Users\\\\kotwa\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\27.1.12297006\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dC:\\\\Users\\\\kotwa\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.22.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\kotwa\\\\OneDrive\\\\Desktop\\\\ONE-QLICK\\\\oneQlick-User-App\\\\android\\\\app\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\6f216z2r\\\\obj\\\\arm64-v8a\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\kotwa\\\\OneDrive\\\\Desktop\\\\ONE-QLICK\\\\oneQlick-User-App\\\\android\\\\app\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\6f216z2r\\\\obj\\\\arm64-v8a\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\" ^\n  \"-DCMAKE_FIND_ROOT_PATH\u003dC:\\\\Users\\\\kotwa\\\\OneDrive\\\\Desktop\\\\ONE-QLICK\\\\oneQlick-User-App\\\\android\\\\app\\\\.cxx\\\\RelWithDebInfo\\\\6f216z2r\\\\prefab\\\\arm64-v8a\\\\prefab\" ^\n  \"-BC:\\\\Users\\\\kotwa\\\\OneDrive\\\\Desktop\\\\ONE-QLICK\\\\oneQlick-User-App\\\\android\\\\app\\\\.cxx\\\\RelWithDebInfo\\\\6f216z2r\\\\arm64-v8a\" ^\n  -GNinja ^\n  \"-DPROJECT_BUILD_DIR\u003dC:\\\\Users\\\\kotwa\\\\OneDrive\\\\Desktop\\\\ONE-QLICK\\\\oneQlick-User-App\\\\android\\\\app\\\\build\" ^\n  \"-DPROJECT_ROOT_DIR\u003dC:\\\\Users\\\\kotwa\\\\OneDrive\\\\Desktop\\\\ONE-QLICK\\\\oneQlick-User-App\\\\android\" ^\n  \"-DREACT_ANDROID_DIR\u003dC:\\\\Users\\\\kotwa\\\\OneDrive\\\\Desktop\\\\ONE-QLICK\\\\oneQlick-User-App\\\\node_modules\\\\react-native\\\\ReactAndroid\" ^\n  \"-DANDROID_STL\u003dc++_shared\" ^\n  \"-DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES\u003dON\"\n",
+    "file_": "C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "@echo off\n\"C:\\\\Users\\\\kotwa\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.22.1\\\\bin\\\\cmake.exe\" ^\n  \"-HC:\\\\Users\\\\kotwa\\\\OneDrive\\\\Desktop\\\\ONE-QLICK\\\\oneQlick-User-App\\\\node_modules\\\\react-native\\\\ReactAndroid\\\\cmake-utils\\\\default-app-setup\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d24\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-24\" ^\n  \"-DANDROID_ABI\u003darm64-v8a\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a\" ^\n  \"-DANDROID_NDK\u003dC:\\\\Users\\\\kotwa\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\27.1.12297006\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dC:\\\\Users\\\\kotwa\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\27.1.12297006\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dC:\\\\Users\\\\kotwa\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\27.1.12297006\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dC:\\\\Users\\\\kotwa\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\cmake\\\\3.22.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\kotwa\\\\OneDrive\\\\Desktop\\\\ONE-QLICK\\\\oneQlick-User-App\\\\android\\\\app\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\6f216z2r\\\\obj\\\\arm64-v8a\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dC:\\\\Users\\\\kotwa\\\\OneDrive\\\\Desktop\\\\ONE-QLICK\\\\oneQlick-User-App\\\\android\\\\app\\\\build\\\\intermediates\\\\cxx\\\\RelWithDebInfo\\\\6f216z2r\\\\obj\\\\arm64-v8a\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\" ^\n  \"-DCMAKE_FIND_ROOT_PATH\u003dC:\\\\Users\\\\kotwa\\\\OneDrive\\\\Desktop\\\\ONE-QLICK\\\\oneQlick-User-App\\\\android\\\\app\\\\.cxx\\\\RelWithDebInfo\\\\6f216z2r\\\\prefab\\\\arm64-v8a\\\\prefab\" ^\n  \"-BC:\\\\Users\\\\kotwa\\\\OneDrive\\\\Desktop\\\\ONE-QLICK\\\\oneQlick-User-App\\\\android\\\\app\\\\.cxx\\\\RelWithDebInfo\\\\6f216z2r\\\\arm64-v8a\" ^\n  -GNinja ^\n  \"-DPROJECT_BUILD_DIR\u003dC:\\\\Users\\\\kotwa\\\\OneDrive\\\\Desktop\\\\ONE-QLICK\\\\oneQlick-User-App\\\\android\\\\app\\\\build\" ^\n  \"-DPROJECT_ROOT_DIR\u003dC:\\\\Users\\\\kotwa\\\\OneDrive\\\\Desktop\\\\ONE-QLICK\\\\oneQlick-User-App\\\\android\" ^\n  \"-DREACT_ANDROID_DIR\u003dC:\\\\Users\\\\kotwa\\\\OneDrive\\\\Desktop\\\\ONE-QLICK\\\\oneQlick-User-App\\\\node_modules\\\\react-native\\\\ReactAndroid\" ^\n  \"-DANDROID_STL\u003dc++_shared\" ^\n  \"-DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES\u003dON\"\n",
+    "file_": "C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "Received process result: 0",
+    "file_": "C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\android\\app\\.cxx\\RelWithDebInfo\\6f216z2r\\arm64-v8a\\compile_commands.json.bin normally",
+    "file_": "C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "hard linked C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\android\\app\\.cxx\\RelWithDebInfo\\6f216z2r\\arm64-v8a\\compile_commands.json to C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\android\\app\\.cxx\\tools\\release\\arm64-v8a\\compile_commands.json",
+    "file_": "C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "C:\\Users\\kotwa\\OneDrive\\Desktop\\ONE-QLICK\\oneQlick-User-App\\node_modules\\react-native\\ReactAndroid\\cmake-utils\\default-app-setup\\CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  }
+]

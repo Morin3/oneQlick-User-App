@@ -1,0 +1,1062 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:1:1-28:12
+INJECTED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:1:1-28:12
+MERGED from [:react-native-gesture-handler] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-safe-area-context] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-screens] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-screens\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-async-storage_async-storage] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-community_geolocation] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\@react-native-community\geolocation\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-masked-view_masked-view] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\@react-native-masked-view\masked-view\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\expo\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-maps] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-maps\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-reanimated] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-reanimated\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-svg] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-svg\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-vector-icons] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:react-native-worklets] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-worklets\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [:expo-modules-core] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-18:12
+MERGED from [host.exp.exponent:expo.modules.font:14.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\77ae2099565a9cdb884cee37b6167125\transformed\expo.modules.font-14.0.8\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.react:react-android:0.81.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\19ebc5d0feddf2006ae4bd8bc7f6c8b4\transformed\react-android-0.81.4-release\AndroidManifest.xml:2:1-12:12
+MERGED from [:expo-constants] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\expo-constants\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:2:1-7:12
+MERGED from [expo.modules.asset:expo.modules.asset:12.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\180579ce37883565d83394158c6a4716\transformed\expo.modules.asset-12.0.8\AndroidManifest.xml:2:1-7:12
+MERGED from [host.exp.exponent:expo.modules.filesystem:19.0.14] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\73dfa53e842a4b0d54a2f0d093a9a5c3\transformed\expo.modules.filesystem-19.0.14\AndroidManifest.xml:2:1-7:12
+MERGED from [host.exp.exponent:expo.modules.imageloader:6.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1905359b959988becc3ef7ccbb533abb\transformed\expo.modules.imageloader-6.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:2:1-59:12
+MERGED from [host.exp.exponent:expo.modules.keepawake:15.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\cde3481a5578d031be8b8bbd22a09480\transformed\expo.modules.keepawake-15.0.7\AndroidManifest.xml:2:1-7:12
+MERGED from [host.exp.exponent:expo.modules.lineargradient:15.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\fa17c876672774593f33001ba24d7a4f\transformed\expo.modules.lineargradient-15.0.7\AndroidManifest.xml:2:1-7:12
+MERGED from [host.exp.exponent:expo.modules.linking:8.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\e4eb098961ab4323ff1de93c87b61388\transformed\expo.modules.linking-8.0.8\AndroidManifest.xml:2:1-7:12
+MERGED from [host.exp.exponent:expo.modules.location:19.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b179dace38d06638a0ba407e697d3832\transformed\expo.modules.location-19.0.7\AndroidManifest.xml:2:1-17:12
+MERGED from [host.exp.exponent:expo.modules.speech:14.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\48fb2ca7f99c13886b96c0a819386009\transformed\expo.modules.speech-14.0.7\AndroidManifest.xml:2:1-15:12
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\8d4cdf2421e0152989d622d01fefcd7a\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\2b08049234041b2bf4b50182e4619509\transformed\imagepipeline-okhttp3-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt.coil3:coil-android:3.0.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\5504830c360594c43a5043ca177c747a\transformed\coil-release\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt.coil3:coil-svg-android:3.0.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\906e2e46a73a922b5ef34f01ba8668f9\transformed\coil-svg-release\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt.coil3:coil-network-core-android:3.0.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\568dcb4651c9047880e7f58ce78f2750\transformed\coil-network-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [io.coil-kt.coil3:coil-core-android:3.0.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\e7b93bd5b39a4d625dee868f199adca3\transformed\coil-core-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\15d069700a74f084f28057ba1a23cf14\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:2:1-36:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\78ec14ba70ed24fceb49876be3418c23\transformed\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\2500f2c632ebbb930ce00f1fe06b7270\transformed\appcompat-1.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0e68d22f689cbcb51867e26807f9c04d\transformed\play-services-location-21.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.maps.android:android-maps-utils:3.8.2] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\4490615f05e1580aed10d44241e0af33\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a51f2115f6e6cd08d354d5ebf7a5299e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-base:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\08819ff8f9173bb93e83f354aa19ced4\transformed\play-services-base-18.2.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\5d92382d64eafa1b1c9c2c880058fde6\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\8f1f42e1534f26685c3f0d4f813515ae\transformed\play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\be60c73f35da7aa0168c44ed16f55e43\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\806da9b988ed8e2135fc49121f0d53f2\transformed\glide-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\56b5e4359ff6e7c5b3e39744f4ab0639\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.6.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\7b80663a0ce91f1f3f5960168068e69a\transformed\fragment-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\e3209fad55ca00e5760a0455e1668498\transformed\fragment-ktx-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\eb2b079e110048068490822ce8759351\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ebd2c8bb6f0572a68ed4acfac23c9d61\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ff72b9a2c2177e4ad570f79e92bb933b\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\22e3ad27af143815aff2cc1de3bdba3b\transformed\autofill-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:animated-gif:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d04ccfca1d8aff48fdf380563dc4b8df\transformed\animated-gif-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:webpsupport:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0eb5f2b4244e9dd18a0ba682996184fb\transformed\webpsupport-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:fresco:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0f4998e78b0a0b7a65436f9e0c7c079d\transformed\fresco-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:animated-base:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1d85795d83075d6c97e5866d1a0fe5df\transformed\animated-base-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:animated-drawable:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\11d855e4cd9f4f009c0b43f6d4834097\transformed\animated-drawable-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:vito-options:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\f3be11a20fdf51fe8272fbd8fbae2c4f\transformed\vito-options-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:drawee:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\dcc23f54e7bf3a1dde072ea0f81865fa\transformed\drawee-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:nativeimagefilters:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\33643a965ec38001fdfcf37770ea2691\transformed\nativeimagefilters-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-native:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1643f6c6667a4dc0578b50e414e4c42e\transformed\memory-type-native-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-java:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\42606d4ea881dbd906ccdbf3781e6024\transformed\memory-type-java-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-native:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b375ea424d9b48f721b985b6d206fcc9\transformed\imagepipeline-native-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b40e47a0f578fe9d1933163ba8f473b0\transformed\memory-type-ashmem-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\eb5d441211603fdc1f9d599348f3bd00\transformed\imagepipeline-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b341c178b79b5ffc21e2cb5e6d227a39\transformed\nativeimagetranscoder-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-base:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\00d3c20ee1745c44325cbb8139d82837\transformed\imagepipeline-base-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:urimod:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\22223aa26ba9f6ef9fd451538b7eb27d\transformed\urimod-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:vito-source:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\18c1b99b98701b72fc6683f46a77aa1f\transformed\vito-source-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:middleware:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\9bd5cd8899872e9435b753ebb58d109c\transformed\middleware-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:ui-common:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\95462d966458cff97e0e587951d326e0\transformed\ui-common-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:soloader:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\41e602b5387be78928b2e7441aed0a0e\transformed\soloader-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:fbcore:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0ce7c92e7e826090b9988e76edad34eb\transformed\fbcore-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ec9c9e8872c3d0ad4747918a137024a8\transformed\transition-1.5.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\9b10f41ac21fd86e9c636419b5258a61\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\dbf964ef65ca5e5769957054f109ed32\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\17113b0cfbf2c4f2ad2e8488c1299592\transformed\documentfile-1.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\dd7b28cd8cfa3375237efb2660688aa7\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\6b79ac5e1372c45a2292eb60101c509f\transformed\emoji2-1.3.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\5181763107e81bd601d6d616c0f7383e\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0d959ba5ddae3516ad95cba071fd12f7\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0f252409aa3d42250a9bd22c4fb63ef0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\2c5859ef91d293fb9e9cd36d923bcb80\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ce2eb0f269e4f268be0def40d3be7d26\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8c3151dffd0ff840fa46c4ffd36ff25\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\4d0210ab8fc30f1455a4a14ab46d0e23\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\30010205f2f0310ee7c28249f8ee5aaf\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\e4664ef1128df1a2e07394c509b2ba6a\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\3393c92493e91b71c661c2d33eb19f38\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c9762bad823fb45e99559595d348265b\transformed\core-1.16.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.activity:activity-ktx:1.10.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c0641cf03a5a04e6f39556bd9d3e6e71\transformed\activity-ktx-1.10.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.10.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\4685aea9074f3512cfa5b9a15bbbecbb\transformed\activity-1.10.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\821db1cbb069fdd7c3ce5f010eda09cf\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ce049a974ebc502a11283446e70aff42\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d92f8ac704ce13f98459dbbb5a1f92df\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ffc62e6ad1019443c124deae65518624\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\cfe902998f36b21726b0bb25d2616543\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\cdc31b995952e460d61c0977fcb08cec\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0d28aeb675f4b5a1ace9ed74789c0d68\transformed\lifecycle-service-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\01865c91db35985d0d24d2ae7c6e31ad\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\662bf382a27f87560a3c18797d1ed6d9\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ab120264cee7a9640c79e000aede0e2c\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\2df5dcf16a069f63ff1ce321feb48c47\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b07d7e8ee46a303978f61656a1915d15\transformed\lifecycle-runtime-release\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\20dfb1aafa9715d7086d08cd42d57c6b\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b881d3ec444bd857cde722d6d2a90b3a\transformed\core-ktx-1.16.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\949870910d49aa13833f73b88ed03de6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b1c2f7e235d86ab7754942e1549cc3a8\transformed\tracing-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\bf704a26de37ae2fe285ec9302d7f8ed\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:ui-core:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c52f94ff75b637a66f5d8e91f2b890a8\transformed\ui-core-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\5f64971bee31e3556c281d5f76cae96f\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\7e1f995d7490e5ab37146da123037dd1\transformed\core-viewtree-1.0.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:vito-renderer:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\43a2de50b835a12d14a86d86be445074\transformed\vito-renderer-3.6.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\668fbe5bd19fb2098e89c204b404a241\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.facebook.react:hermes-android:0.81.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d8d85eea07b70d0a756d35390e1aea37\transformed\hermes-android-0.81.4-release\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54661fee268beb5be9ede664aa2096de\transformed\exifinterface-1.3.7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\6e078d1cc0cb98546d51e4aa70702c30\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1283c6d59bcb7ef2c3f57ef367652794\transformed\room-runtime-2.2.5\AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\4ea44b82ee6b3efa6f24d6457eb870dd\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a385c8c8a6b52ae14802623e39f91b16\transformed\sqlite-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\aa6ec25af5a5b21c2b2d8df678a635fc\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\e9ff17401326645f77e4d76a97964476\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d3bda4bbdfb75f45f1e21b74a118ec82\transformed\gifdecoder-4.16.0\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.databinding:viewbinding:8.5.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\35a2b996a9b30b8360ebad6287f375bd\transformed\viewbinding-8.5.1\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\9f0227dbfccaecf2f4821cf0c7fcbf51\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\dc8379c329cd24982174ddd4b7b2b1f2\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\092958ec72c288aadacf6db33dd71a8e\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fbjni:fbjni:0.7.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1b1a3927c32b2f6141fd2ce3de18a57c\transformed\fbjni-0.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.soloader:soloader:0.12.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d6a5085bcc0c1d10152000a84d854081\transformed\soloader-0.12.1\AndroidManifest.xml:2:1-17:12
+MERGED from [com.caverock:androidsvg-aar:1.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\e07b7bd35834163ca2b1aaed23db5891\transformed\androidsvg-aar-1.4\AndroidManifest.xml:2:1-11:12
+	package
+		INJECTED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:1:70-116
+	android:versionCode
+		INJECTED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:2:3-78
+MERGED from [host.exp.exponent:expo.modules.location:19.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b179dace38d06638a0ba407e697d3832\transformed\expo.modules.location-19.0.7\AndroidManifest.xml:7:5-81
+MERGED from [host.exp.exponent:expo.modules.location:19.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b179dace38d06638a0ba407e697d3832\transformed\expo.modules.location-19.0.7\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:2:20-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:3:3-76
+MERGED from [host.exp.exponent:expo.modules.location:19.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b179dace38d06638a0ba407e697d3832\transformed\expo.modules.location-19.0.7\AndroidManifest.xml:8:5-79
+MERGED from [host.exp.exponent:expo.modules.location:19.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b179dace38d06638a0ba407e697d3832\transformed\expo.modules.location-19.0.7\AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:3:20-74
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:4:3-64
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a51f2115f6e6cd08d354d5ebf7a5299e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a51f2115f6e6cd08d354d5ebf7a5299e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:4:20-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:5:3-77
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:12:5-80
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:5:20-75
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:6:3-68
+	android:name
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:6:20-66
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:7:3-75
+	android:name
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:7:20-73
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:8:3-63
+	android:name
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:8:20-61
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:9:3-78
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:11:5-81
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:9:20-76
+queries
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:10:3-16:13
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:14:5-25:15
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:14:5-25:15
+MERGED from [host.exp.exponent:expo.modules.speech:14.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\48fb2ca7f99c13886b96c0a819386009\transformed\expo.modules.speech-14.0.7\AndroidManifest.xml:7:5-13:15
+MERGED from [host.exp.exponent:expo.modules.speech:14.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\48fb2ca7f99c13886b96c0a819386009\transformed\expo.modules.speech-14.0.7\AndroidManifest.xml:7:5-13:15
+MERGED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:7:5-18:15
+MERGED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:7:5-18:15
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a51f2115f6e6cd08d354d5ebf7a5299e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a51f2115f6e6cd08d354d5ebf7a5299e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:30:5-34:15
+intent#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+data:scheme:https
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:11:5-15:14
+action#android.intent.action.VIEW
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:12:7-58
+	android:name
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:12:15-56
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:13:7-67
+	android:name
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:13:17-65
+data
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:14:7-37
+	android:scheme
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:14:13-35
+application
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:17:3-27:17
+INJECTED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:17:3-27:17
+MERGED from [:expo-modules-core] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:5-16:19
+MERGED from [:expo-modules-core] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:8:5-16:19
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:27:5-57:19
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:27:5-57:19
+MERGED from [host.exp.exponent:expo.modules.location:19.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b179dace38d06638a0ba407e697d3832\transformed\expo.modules.location-19.0.7\AndroidManifest.xml:10:5-15:19
+MERGED from [host.exp.exponent:expo.modules.location:19.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b179dace38d06638a0ba407e697d3832\transformed\expo.modules.location-19.0.7\AndroidManifest.xml:10:5-15:19
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\8d4cdf2421e0152989d622d01fefcd7a\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\8d4cdf2421e0152989d622d01fefcd7a\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
+MERGED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:20:5-34:19
+MERGED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:20:5-34:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\78ec14ba70ed24fceb49876be3418c23\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\78ec14ba70ed24fceb49876be3418c23\transformed\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0e68d22f689cbcb51867e26807f9c04d\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0e68d22f689cbcb51867e26807f9c04d\transformed\play-services-location-21.0.1\AndroidManifest.xml:7:5-20
+MERGED from [com.google.maps.android:android-maps-utils:3.8.2] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\4490615f05e1580aed10d44241e0af33\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:3.8.2] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\4490615f05e1580aed10d44241e0af33\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a51f2115f6e6cd08d354d5ebf7a5299e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a51f2115f6e6cd08d354d5ebf7a5299e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:36:5-42:19
+MERGED from [com.google.android.gms:play-services-base:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\08819ff8f9173bb93e83f354aa19ced4\transformed\play-services-base-18.2.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\08819ff8f9173bb93e83f354aa19ced4\transformed\play-services-base-18.2.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\5d92382d64eafa1b1c9c2c880058fde6\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\5d92382d64eafa1b1c9c2c880058fde6\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\8f1f42e1534f26685c3f0d4f813515ae\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\8f1f42e1534f26685c3f0d4f813515ae\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\6b79ac5e1372c45a2292eb60101c509f\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\6b79ac5e1372c45a2292eb60101c509f\transformed\emoji2-1.3.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c9762bad823fb45e99559595d348265b\transformed\core-1.16.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c9762bad823fb45e99559595d348265b\transformed\core-1.16.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\01865c91db35985d0d24d2ae7c6e31ad\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\01865c91db35985d0d24d2ae7c6e31ad\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\949870910d49aa13833f73b88ed03de6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\949870910d49aa13833f73b88ed03de6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\668fbe5bd19fb2098e89c204b404a241\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\668fbe5bd19fb2098e89c204b404a241\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1283c6d59bcb7ef2c3f57ef367652794\transformed\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1283c6d59bcb7ef2c3f57ef367652794\transformed\room-runtime-2.2.5\AndroidManifest.xml:24:5-29:19
+MERGED from [com.facebook.soloader:soloader:0.12.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d6a5085bcc0c1d10152000a84d854081\transformed\soloader-0.12.1\AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.soloader:soloader:0.12.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d6a5085bcc0c1d10152000a84d854081\transformed\soloader-0.12.1\AndroidManifest.xml:11:5-15:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c9762bad823fb45e99559595d348265b\transformed\core-1.16.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:17:221-247
+	android:label
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:17:48-80
+	android:roundIcon
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:17:116-161
+	android:icon
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:17:81-115
+	android:allowBackup
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:17:162-188
+	android:theme
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:17:189-220
+	android:enableOnBackInvokedCallback
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:17:248-291
+	android:name
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:17:16-47
+meta-data#expo.modules.updates.ENABLED
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:18:5-83
+	android:value
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:18:60-81
+	android:name
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:18:16-59
+meta-data#expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:19:5-105
+	android:value
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:19:81-103
+	android:name
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:19:16-80
+meta-data#expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:20:5-99
+	android:value
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:20:80-97
+	android:name
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:20:16-79
+activity#com.tahakotwal.oneqlick.MainActivity
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:21:5-26:16
+	android:launchMode
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:21:135-166
+	android:windowSoftInputMode
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:21:167-209
+	android:exported
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:21:256-279
+	android:configChanges
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:21:44-134
+	android:theme
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:21:210-255
+	android:name
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:21:15-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:22:7-25:23
+action#android.intent.action.MAIN
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:23:9-60
+	android:name
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:23:17-58
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:24:9-68
+	android:name
+		ADDED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml:24:19-66
+uses-sdk
+INJECTED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-gesture-handler] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-gesture-handler] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-gesture-handler\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-safe-area-context] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-safe-area-context\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-screens\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-screens] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-screens\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-async-storage_async-storage] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\@react-native-async-storage\async-storage\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-community_geolocation] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\@react-native-community\geolocation\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-community_geolocation] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\@react-native-community\geolocation\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-masked-view_masked-view] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\@react-native-masked-view\masked-view\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-masked-view_masked-view] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\@react-native-masked-view\masked-view\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\expo\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\expo\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-maps] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-maps\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-maps] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-maps\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-reanimated] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-reanimated\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-reanimated] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-reanimated\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-svg] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-svg\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-svg] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-svg\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-vector-icons] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-vector-icons] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-vector-icons\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-worklets] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-worklets\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:react-native-worklets] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\react-native-worklets\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-modules-core] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:6:5-44
+MERGED from [:expo-modules-core] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:6:5-44
+MERGED from [host.exp.exponent:expo.modules.font:14.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\77ae2099565a9cdb884cee37b6167125\transformed\expo.modules.font-14.0.8\AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.font:14.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\77ae2099565a9cdb884cee37b6167125\transformed\expo.modules.font-14.0.8\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:react-android:0.81.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\19ebc5d0feddf2006ae4bd8bc7f6c8b4\transformed\react-android-0.81.4-release\AndroidManifest.xml:10:5-44
+MERGED from [com.facebook.react:react-android:0.81.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\19ebc5d0feddf2006ae4bd8bc7f6c8b4\transformed\react-android-0.81.4-release\AndroidManifest.xml:10:5-44
+MERGED from [:expo-constants] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\expo-constants\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [:expo-constants] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\expo-constants\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:5:5-44
+MERGED from [expo.modules.asset:expo.modules.asset:12.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\180579ce37883565d83394158c6a4716\transformed\expo.modules.asset-12.0.8\AndroidManifest.xml:5:5-44
+MERGED from [expo.modules.asset:expo.modules.asset:12.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\180579ce37883565d83394158c6a4716\transformed\expo.modules.asset-12.0.8\AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.filesystem:19.0.14] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\73dfa53e842a4b0d54a2f0d093a9a5c3\transformed\expo.modules.filesystem-19.0.14\AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.filesystem:19.0.14] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\73dfa53e842a4b0d54a2f0d093a9a5c3\transformed\expo.modules.filesystem-19.0.14\AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.imageloader:6.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1905359b959988becc3ef7ccbb533abb\transformed\expo.modules.imageloader-6.0.0\AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.imageloader:6.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1905359b959988becc3ef7ccbb533abb\transformed\expo.modules.imageloader-6.0.0\AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:6:5-44
+MERGED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:6:5-44
+MERGED from [host.exp.exponent:expo.modules.keepawake:15.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\cde3481a5578d031be8b8bbd22a09480\transformed\expo.modules.keepawake-15.0.7\AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.keepawake:15.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\cde3481a5578d031be8b8bbd22a09480\transformed\expo.modules.keepawake-15.0.7\AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.lineargradient:15.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\fa17c876672774593f33001ba24d7a4f\transformed\expo.modules.lineargradient-15.0.7\AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.lineargradient:15.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\fa17c876672774593f33001ba24d7a4f\transformed\expo.modules.lineargradient-15.0.7\AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.linking:8.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\e4eb098961ab4323ff1de93c87b61388\transformed\expo.modules.linking-8.0.8\AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.linking:8.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\e4eb098961ab4323ff1de93c87b61388\transformed\expo.modules.linking-8.0.8\AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.location:19.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b179dace38d06638a0ba407e697d3832\transformed\expo.modules.location-19.0.7\AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.location:19.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b179dace38d06638a0ba407e697d3832\transformed\expo.modules.location-19.0.7\AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.speech:14.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\48fb2ca7f99c13886b96c0a819386009\transformed\expo.modules.speech-14.0.7\AndroidManifest.xml:5:5-44
+MERGED from [host.exp.exponent:expo.modules.speech:14.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\48fb2ca7f99c13886b96c0a819386009\transformed\expo.modules.speech-14.0.7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\8d4cdf2421e0152989d622d01fefcd7a\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\8d4cdf2421e0152989d622d01fefcd7a\transformed\material-1.12.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\2b08049234041b2bf4b50182e4619509\transformed\imagepipeline-okhttp3-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\2b08049234041b2bf4b50182e4619509\transformed\imagepipeline-okhttp3-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-android:3.0.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\5504830c360594c43a5043ca177c747a\transformed\coil-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-android:3.0.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\5504830c360594c43a5043ca177c747a\transformed\coil-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-svg-android:3.0.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\906e2e46a73a922b5ef34f01ba8668f9\transformed\coil-svg-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-svg-android:3.0.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\906e2e46a73a922b5ef34f01ba8668f9\transformed\coil-svg-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-network-core-android:3.0.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\568dcb4651c9047880e7f58ce78f2750\transformed\coil-network-core-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-network-core-android:3.0.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\568dcb4651c9047880e7f58ce78f2750\transformed\coil-network-core-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-core-android:3.0.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\e7b93bd5b39a4d625dee868f199adca3\transformed\coil-core-release\AndroidManifest.xml:5:5-44
+MERGED from [io.coil-kt.coil3:coil-core-android:3.0.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\e7b93bd5b39a4d625dee868f199adca3\transformed\coil-core-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\15d069700a74f084f28057ba1a23cf14\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\15d069700a74f084f28057ba1a23cf14\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\78ec14ba70ed24fceb49876be3418c23\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\78ec14ba70ed24fceb49876be3418c23\transformed\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\2500f2c632ebbb930ce00f1fe06b7270\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\2500f2c632ebbb930ce00f1fe06b7270\transformed\appcompat-1.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0e68d22f689cbcb51867e26807f9c04d\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0e68d22f689cbcb51867e26807f9c04d\transformed\play-services-location-21.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.8.2] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\4490615f05e1580aed10d44241e0af33\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.maps.android:android-maps-utils:3.8.2] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\4490615f05e1580aed10d44241e0af33\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a51f2115f6e6cd08d354d5ebf7a5299e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a51f2115f6e6cd08d354d5ebf7a5299e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\08819ff8f9173bb93e83f354aa19ced4\transformed\play-services-base-18.2.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\08819ff8f9173bb93e83f354aa19ced4\transformed\play-services-base-18.2.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\5d92382d64eafa1b1c9c2c880058fde6\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\5d92382d64eafa1b1c9c2c880058fde6\transformed\play-services-tasks-18.0.2\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\8f1f42e1534f26685c3f0d4f813515ae\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\8f1f42e1534f26685c3f0d4f813515ae\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\be60c73f35da7aa0168c44ed16f55e43\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\be60c73f35da7aa0168c44ed16f55e43\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\806da9b988ed8e2135fc49121f0d53f2\transformed\glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\806da9b988ed8e2135fc49121f0d53f2\transformed\glide-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\56b5e4359ff6e7c5b3e39744f4ab0639\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\56b5e4359ff6e7c5b3e39744f4ab0639\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.6.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\7b80663a0ce91f1f3f5960168068e69a\transformed\fragment-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\7b80663a0ce91f1f3f5960168068e69a\transformed\fragment-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\e3209fad55ca00e5760a0455e1668498\transformed\fragment-ktx-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\e3209fad55ca00e5760a0455e1668498\transformed\fragment-ktx-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\eb2b079e110048068490822ce8759351\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\eb2b079e110048068490822ce8759351\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ebd2c8bb6f0572a68ed4acfac23c9d61\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ebd2c8bb6f0572a68ed4acfac23c9d61\transformed\coordinatorlayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ff72b9a2c2177e4ad570f79e92bb933b\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ff72b9a2c2177e4ad570f79e92bb933b\transformed\swiperefreshlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\22e3ad27af143815aff2cc1de3bdba3b\transformed\autofill-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\22e3ad27af143815aff2cc1de3bdba3b\transformed\autofill-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:animated-gif:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d04ccfca1d8aff48fdf380563dc4b8df\transformed\animated-gif-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-gif:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d04ccfca1d8aff48fdf380563dc4b8df\transformed\animated-gif-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:webpsupport:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0eb5f2b4244e9dd18a0ba682996184fb\transformed\webpsupport-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:webpsupport:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0eb5f2b4244e9dd18a0ba682996184fb\transformed\webpsupport-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fresco:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0f4998e78b0a0b7a65436f9e0c7c079d\transformed\fresco-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fresco:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0f4998e78b0a0b7a65436f9e0c7c079d\transformed\fresco-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-base:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1d85795d83075d6c97e5866d1a0fe5df\transformed\animated-base-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-base:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1d85795d83075d6c97e5866d1a0fe5df\transformed\animated-base-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-drawable:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\11d855e4cd9f4f009c0b43f6d4834097\transformed\animated-drawable-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:animated-drawable:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\11d855e4cd9f4f009c0b43f6d4834097\transformed\animated-drawable-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:vito-options:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\f3be11a20fdf51fe8272fbd8fbae2c4f\transformed\vito-options-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:vito-options:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\f3be11a20fdf51fe8272fbd8fbae2c4f\transformed\vito-options-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:drawee:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\dcc23f54e7bf3a1dde072ea0f81865fa\transformed\drawee-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:drawee:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\dcc23f54e7bf3a1dde072ea0f81865fa\transformed\drawee-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagefilters:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\33643a965ec38001fdfcf37770ea2691\transformed\nativeimagefilters-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagefilters:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\33643a965ec38001fdfcf37770ea2691\transformed\nativeimagefilters-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-native:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1643f6c6667a4dc0578b50e414e4c42e\transformed\memory-type-native-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-native:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1643f6c6667a4dc0578b50e414e4c42e\transformed\memory-type-native-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-java:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\42606d4ea881dbd906ccdbf3781e6024\transformed\memory-type-java-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-java:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\42606d4ea881dbd906ccdbf3781e6024\transformed\memory-type-java-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-native:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b375ea424d9b48f721b985b6d206fcc9\transformed\imagepipeline-native-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-native:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b375ea424d9b48f721b985b6d206fcc9\transformed\imagepipeline-native-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b40e47a0f578fe9d1933163ba8f473b0\transformed\memory-type-ashmem-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b40e47a0f578fe9d1933163ba8f473b0\transformed\memory-type-ashmem-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\eb5d441211603fdc1f9d599348f3bd00\transformed\imagepipeline-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\eb5d441211603fdc1f9d599348f3bd00\transformed\imagepipeline-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b341c178b79b5ffc21e2cb5e6d227a39\transformed\nativeimagetranscoder-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b341c178b79b5ffc21e2cb5e6d227a39\transformed\nativeimagetranscoder-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-base:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\00d3c20ee1745c44325cbb8139d82837\transformed\imagepipeline-base-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-base:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\00d3c20ee1745c44325cbb8139d82837\transformed\imagepipeline-base-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:urimod:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\22223aa26ba9f6ef9fd451538b7eb27d\transformed\urimod-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:urimod:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\22223aa26ba9f6ef9fd451538b7eb27d\transformed\urimod-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:vito-source:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\18c1b99b98701b72fc6683f46a77aa1f\transformed\vito-source-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:vito-source:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\18c1b99b98701b72fc6683f46a77aa1f\transformed\vito-source-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:middleware:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\9bd5cd8899872e9435b753ebb58d109c\transformed\middleware-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:middleware:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\9bd5cd8899872e9435b753ebb58d109c\transformed\middleware-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-common:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\95462d966458cff97e0e587951d326e0\transformed\ui-common-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-common:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\95462d966458cff97e0e587951d326e0\transformed\ui-common-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:soloader:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\41e602b5387be78928b2e7441aed0a0e\transformed\soloader-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:soloader:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\41e602b5387be78928b2e7441aed0a0e\transformed\soloader-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fbcore:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0ce7c92e7e826090b9988e76edad34eb\transformed\fbcore-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fbcore:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0ce7c92e7e826090b9988e76edad34eb\transformed\fbcore-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ec9c9e8872c3d0ad4747918a137024a8\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ec9c9e8872c3d0ad4747918a137024a8\transformed\transition-1.5.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\9b10f41ac21fd86e9c636419b5258a61\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\9b10f41ac21fd86e9c636419b5258a61\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\dbf964ef65ca5e5769957054f109ed32\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\dbf964ef65ca5e5769957054f109ed32\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\17113b0cfbf2c4f2ad2e8488c1299592\transformed\documentfile-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.documentfile:documentfile:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\17113b0cfbf2c4f2ad2e8488c1299592\transformed\documentfile-1.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\dd7b28cd8cfa3375237efb2660688aa7\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\dd7b28cd8cfa3375237efb2660688aa7\transformed\emoji2-views-helper-1.3.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\6b79ac5e1372c45a2292eb60101c509f\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\6b79ac5e1372c45a2292eb60101c509f\transformed\emoji2-1.3.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\5181763107e81bd601d6d616c0f7383e\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\5181763107e81bd601d6d616c0f7383e\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0d959ba5ddae3516ad95cba071fd12f7\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0d959ba5ddae3516ad95cba071fd12f7\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0f252409aa3d42250a9bd22c4fb63ef0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0f252409aa3d42250a9bd22c4fb63ef0\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\2c5859ef91d293fb9e9cd36d923bcb80\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\2c5859ef91d293fb9e9cd36d923bcb80\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ce2eb0f269e4f268be0def40d3be7d26\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ce2eb0f269e4f268be0def40d3be7d26\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8c3151dffd0ff840fa46c4ffd36ff25\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8c3151dffd0ff840fa46c4ffd36ff25\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\4d0210ab8fc30f1455a4a14ab46d0e23\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\4d0210ab8fc30f1455a4a14ab46d0e23\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\30010205f2f0310ee7c28249f8ee5aaf\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\30010205f2f0310ee7c28249f8ee5aaf\transformed\slidingpanelayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\e4664ef1128df1a2e07394c509b2ba6a\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\e4664ef1128df1a2e07394c509b2ba6a\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\3393c92493e91b71c661c2d33eb19f38\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\3393c92493e91b71c661c2d33eb19f38\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c9762bad823fb45e99559595d348265b\transformed\core-1.16.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c9762bad823fb45e99559595d348265b\transformed\core-1.16.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c0641cf03a5a04e6f39556bd9d3e6e71\transformed\activity-ktx-1.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c0641cf03a5a04e6f39556bd9d3e6e71\transformed\activity-ktx-1.10.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.10.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\4685aea9074f3512cfa5b9a15bbbecbb\transformed\activity-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\4685aea9074f3512cfa5b9a15bbbecbb\transformed\activity-1.10.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\821db1cbb069fdd7c3ce5f010eda09cf\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\821db1cbb069fdd7c3ce5f010eda09cf\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ce049a974ebc502a11283446e70aff42\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ce049a974ebc502a11283446e70aff42\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d92f8ac704ce13f98459dbbb5a1f92df\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d92f8ac704ce13f98459dbbb5a1f92df\transformed\lifecycle-viewmodel-2.8.7\AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ffc62e6ad1019443c124deae65518624\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ffc62e6ad1019443c124deae65518624\transformed\lifecycle-viewmodel-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\cfe902998f36b21726b0bb25d2616543\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\cfe902998f36b21726b0bb25d2616543\transformed\lifecycle-runtime-ktx-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\cdc31b995952e460d61c0977fcb08cec\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\cdc31b995952e460d61c0977fcb08cec\transformed\lifecycle-viewmodel-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0d28aeb675f4b5a1ace9ed74789c0d68\transformed\lifecycle-service-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\0d28aeb675f4b5a1ace9ed74789c0d68\transformed\lifecycle-service-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\01865c91db35985d0d24d2ae7c6e31ad\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\01865c91db35985d0d24d2ae7c6e31ad\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\662bf382a27f87560a3c18797d1ed6d9\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\662bf382a27f87560a3c18797d1ed6d9\transformed\lifecycle-livedata-core-ktx-2.8.7\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ab120264cee7a9640c79e000aede0e2c\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\ab120264cee7a9640c79e000aede0e2c\transformed\lifecycle-livedata-core-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\2df5dcf16a069f63ff1ce321feb48c47\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\2df5dcf16a069f63ff1ce321feb48c47\transformed\lifecycle-livedata-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b07d7e8ee46a303978f61656a1915d15\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b07d7e8ee46a303978f61656a1915d15\transformed\lifecycle-runtime-release\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\20dfb1aafa9715d7086d08cd42d57c6b\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\20dfb1aafa9715d7086d08cd42d57c6b\transformed\lifecycle-viewmodel-savedstate-2.8.7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b881d3ec444bd857cde722d6d2a90b3a\transformed\core-ktx-1.16.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b881d3ec444bd857cde722d6d2a90b3a\transformed\core-ktx-1.16.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\949870910d49aa13833f73b88ed03de6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\949870910d49aa13833f73b88ed03de6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b1c2f7e235d86ab7754942e1549cc3a8\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b1c2f7e235d86ab7754942e1549cc3a8\transformed\tracing-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\bf704a26de37ae2fe285ec9302d7f8ed\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing-ktx:1.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\bf704a26de37ae2fe285ec9302d7f8ed\transformed\tracing-ktx-1.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:ui-core:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c52f94ff75b637a66f5d8e91f2b890a8\transformed\ui-core-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-core:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c52f94ff75b637a66f5d8e91f2b890a8\transformed\ui-core-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\5f64971bee31e3556c281d5f76cae96f\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\5f64971bee31e3556c281d5f76cae96f\transformed\annotation-experimental-1.4.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\7e1f995d7490e5ab37146da123037dd1\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\7e1f995d7490e5ab37146da123037dd1\transformed\core-viewtree-1.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:vito-renderer:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\43a2de50b835a12d14a86d86be445074\transformed\vito-renderer-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:vito-renderer:3.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\43a2de50b835a12d14a86d86be445074\transformed\vito-renderer-3.6.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\668fbe5bd19fb2098e89c204b404a241\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\668fbe5bd19fb2098e89c204b404a241\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.react:hermes-android:0.81.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d8d85eea07b70d0a756d35390e1aea37\transformed\hermes-android-0.81.4-release\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.react:hermes-android:0.81.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d8d85eea07b70d0a756d35390e1aea37\transformed\hermes-android-0.81.4-release\AndroidManifest.xml:5:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54661fee268beb5be9ede664aa2096de\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54661fee268beb5be9ede664aa2096de\transformed\exifinterface-1.3.7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\6e078d1cc0cb98546d51e4aa70702c30\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\6e078d1cc0cb98546d51e4aa70702c30\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1283c6d59bcb7ef2c3f57ef367652794\transformed\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1283c6d59bcb7ef2c3f57ef367652794\transformed\room-runtime-2.2.5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\4ea44b82ee6b3efa6f24d6457eb870dd\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\4ea44b82ee6b3efa6f24d6457eb870dd\transformed\sqlite-framework-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a385c8c8a6b52ae14802623e39f91b16\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a385c8c8a6b52ae14802623e39f91b16\transformed\sqlite-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\aa6ec25af5a5b21c2b2d8df678a635fc\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\aa6ec25af5a5b21c2b2d8df678a635fc\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\e9ff17401326645f77e4d76a97964476\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\e9ff17401326645f77e4d76a97964476\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d3bda4bbdfb75f45f1e21b74a118ec82\transformed\gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d3bda4bbdfb75f45f1e21b74a118ec82\transformed\gifdecoder-4.16.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:8.5.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\35a2b996a9b30b8360ebad6287f375bd\transformed\viewbinding-8.5.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.5.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\35a2b996a9b30b8360ebad6287f375bd\transformed\viewbinding-8.5.1\AndroidManifest.xml:5:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\9f0227dbfccaecf2f4821cf0c7fcbf51\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\9f0227dbfccaecf2f4821cf0c7fcbf51\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\dc8379c329cd24982174ddd4b7b2b1f2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\dc8379c329cd24982174ddd4b7b2b1f2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\092958ec72c288aadacf6db33dd71a8e\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\092958ec72c288aadacf6db33dd71a8e\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fbjni:fbjni:0.7.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1b1a3927c32b2f6141fd2ce3de18a57c\transformed\fbjni-0.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fbjni:fbjni:0.7.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1b1a3927c32b2f6141fd2ce3de18a57c\transformed\fbjni-0.7.0\AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.soloader:soloader:0.12.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d6a5085bcc0c1d10152000a84d854081\transformed\soloader-0.12.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.12.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d6a5085bcc0c1d10152000a84d854081\transformed\soloader-0.12.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.caverock:androidsvg-aar:1.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\e07b7bd35834163ca2b1aaed23db5891\transformed\androidsvg-aar-1.4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.caverock:androidsvg-aar:1.4] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\e07b7bd35834163ca2b1aaed23db5891\transformed\androidsvg-aar-1.4\AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		INJECTED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\android\app\src\main\AndroidManifest.xml
+meta-data#org.unimodules.core.AppLoader#react-native-headless
+ADDED from [:expo-modules-core] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:9:9-11:89
+	android:value
+		ADDED from [:expo-modules-core] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:11:13-86
+	android:name
+		ADDED from [:expo-modules-core] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:10:13-79
+meta-data#com.facebook.soloader.enabled
+ADDED from [:expo-modules-core] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:12:9-15:45
+MERGED from [com.facebook.soloader:soloader:0.12.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d6a5085bcc0c1d10152000a84d854081\transformed\soloader-0.12.1\AndroidManifest.xml:12:9-14:37
+MERGED from [com.facebook.soloader:soloader:0.12.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d6a5085bcc0c1d10152000a84d854081\transformed\soloader-0.12.1\AndroidManifest.xml:12:9-14:37
+	tools:replace
+		ADDED from [:expo-modules-core] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:15:13-42
+	android:value
+		ADDED from [:expo-modules-core] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:14:13-33
+		REJECTED from [com.facebook.soloader:soloader:0.12.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d6a5085bcc0c1d10152000a84d854081\transformed\soloader-0.12.1\AndroidManifest.xml:14:13-34
+	android:name
+		ADDED from [:expo-modules-core] C:\Users\kotwa\OneDrive\Desktop\ONE-QLICK\oneQlick-User-App\node_modules\expo-modules-core\android\build\intermediates\merged_manifest\release\processReleaseManifest\AndroidManifest.xml:13:13-57
+uses-permission#android.permission.CAMERA
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:8:22-62
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:15:9-19:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:18:13-73
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:18:21-70
+intent#action:name:android.media.action.ACTION_VIDEO_CAPTURE
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:20:9-24:18
+action#android.media.action.ACTION_VIDEO_CAPTURE
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:23:13-80
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:23:21-77
+service#com.google.android.gms.metadata.ModuleDependencies
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:28:9-40:19
+	android:enabled
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:30:13-36
+	android:exported
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:31:13-37
+	tools:ignore
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:32:13-40
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:29:13-78
+intent-filter#action:name:com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:33:13-35:29
+action#com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:34:17-94
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:34:25-91
+meta-data#photopicker_activity:0:required
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:37:13-39:36
+	android:value
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:39:17-33
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:38:17-63
+activity#expo.modules.imagepicker.ExpoCropImageActivity
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:42:9-46:48
+	android:exported
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:44:13-37
+	android:theme
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:45:13-56
+	tools:replace
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:46:13-45
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:43:13-74
+provider#expo.modules.imagepicker.fileprovider.ImagePickerFileProvider
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:48:9-56:20
+	android:grantUriPermissions
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:52:13-47
+	android:authorities
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:50:13-75
+	android:exported
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:49:13-89
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:53:13-55:71
+	android:resource
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:55:17-68
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.imagepicker:17.0.8] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\54fbaa8cbc218aad06d9da331095c683\transformed\expo.modules.imagepicker-17.0.8\AndroidManifest.xml:54:17-67
+service#expo.modules.location.services.LocationTaskService
+ADDED from [host.exp.exponent:expo.modules.location:19.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b179dace38d06638a0ba407e697d3832\transformed\expo.modules.location-19.0.7\AndroidManifest.xml:11:9-14:56
+	android:exported
+		ADDED from [host.exp.exponent:expo.modules.location:19.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b179dace38d06638a0ba407e697d3832\transformed\expo.modules.location-19.0.7\AndroidManifest.xml:13:13-37
+	android:foregroundServiceType
+		ADDED from [host.exp.exponent:expo.modules.location:19.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b179dace38d06638a0ba407e697d3832\transformed\expo.modules.location-19.0.7\AndroidManifest.xml:14:13-53
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.location:19.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\b179dace38d06638a0ba407e697d3832\transformed\expo.modules.location-19.0.7\AndroidManifest.xml:12:13-78
+intent#action:name:android.intent.action.TTS_SERVICE
+ADDED from [host.exp.exponent:expo.modules.speech:14.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\48fb2ca7f99c13886b96c0a819386009\transformed\expo.modules.speech-14.0.7\AndroidManifest.xml:8:9-12:18
+action#android.intent.action.TTS_SERVICE
+ADDED from [host.exp.exponent:expo.modules.speech:14.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\48fb2ca7f99c13886b96c0a819386009\transformed\expo.modules.speech-14.0.7\AndroidManifest.xml:11:13-72
+	android:name
+		ADDED from [host.exp.exponent:expo.modules.speech:14.0.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\48fb2ca7f99c13886b96c0a819386009\transformed\expo.modules.speech-14.0.7\AndroidManifest.xml:11:21-69
+intent#action:name:android.intent.action.GET_CONTENT+category:name:android.intent.category.OPENABLE+data:mimeType:*/*
+ADDED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:8:9-14:18
+action#android.intent.action.GET_CONTENT
+ADDED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:9:13-72
+	android:name
+		ADDED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:9:21-69
+category#android.intent.category.OPENABLE
+ADDED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:11:13-73
+	android:name
+		ADDED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:11:23-70
+provider#com.canhub.cropper.CropFileProvider
+ADDED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:21:9-29:20
+	android:grantUriPermissions
+		ADDED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:25:13-47
+	android:authorities
+		ADDED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:23:13-72
+	android:exported
+		ADDED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:22:13-63
+activity#com.canhub.cropper.CropImageActivity
+ADDED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:31:9-33:39
+	android:exported
+		ADDED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [com.vanniktech:android-image-cropper:4.6.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a8ecd2ab26adb80fb2239575f5178379\transformed\android-image-cropper-4.6.0\AndroidManifest.xml:32:13-64
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:3.8.2] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\4490615f05e1580aed10d44241e0af33\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\8f1f42e1534f26685c3f0d4f813515ae\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\8f1f42e1534f26685c3f0d4f813515ae\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:3.8.2] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\4490615f05e1580aed10d44241e0af33\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:10:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:3.8.2] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\4490615f05e1580aed10d44241e0af33\transformed\android-maps-utils-3.8.2\AndroidManifest.xml:9:13-58
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a51f2115f6e6cd08d354d5ebf7a5299e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
+MERGED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a51f2115f6e6cd08d354d5ebf7a5299e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a51f2115f6e6cd08d354d5ebf7a5299e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a51f2115f6e6cd08d354d5ebf7a5299e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a51f2115f6e6cd08d354d5ebf7a5299e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:28:9-32
+package#com.google.android.apps.maps
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a51f2115f6e6cd08d354d5ebf7a5299e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:9-64
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a51f2115f6e6cd08d354d5ebf7a5299e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:33:18-61
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a51f2115f6e6cd08d354d5ebf7a5299e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:39:9-41:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a51f2115f6e6cd08d354d5ebf7a5299e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\a51f2115f6e6cd08d354d5ebf7a5299e\transformed\play-services-maps-18.2.0\AndroidManifest.xml:40:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\08819ff8f9173bb93e83f354aa19ced4\transformed\play-services-base-18.2.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\08819ff8f9173bb93e83f354aa19ced4\transformed\play-services-base-18.2.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\08819ff8f9173bb93e83f354aa19ced4\transformed\play-services-base-18.2.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.2.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\08819ff8f9173bb93e83f354aa19ced4\transformed\play-services-base-18.2.0\AndroidManifest.xml:20:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:25:22-65
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:22-74
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\6b79ac5e1372c45a2292eb60101c509f\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\6b79ac5e1372c45a2292eb60101c509f\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\01865c91db35985d0d24d2ae7c6e31ad\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\01865c91db35985d0d24d2ae7c6e31ad\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\949870910d49aa13833f73b88ed03de6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\949870910d49aa13833f73b88ed03de6\transformed\startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:35:13-31
+	android:authorities
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\584f3a69fa0f2997a0e09a5832a725d0\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\6b79ac5e1372c45a2292eb60101c509f\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\6b79ac5e1372c45a2292eb60101c509f\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\6b79ac5e1372c45a2292eb60101c509f\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c9762bad823fb45e99559595d348265b\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c9762bad823fb45e99559595d348265b\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c9762bad823fb45e99559595d348265b\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
+permission#com.tahakotwal.oneqlick.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c9762bad823fb45e99559595d348265b\transformed\core-1.16.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c9762bad823fb45e99559595d348265b\transformed\core-1.16.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c9762bad823fb45e99559595d348265b\transformed\core-1.16.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c9762bad823fb45e99559595d348265b\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c9762bad823fb45e99559595d348265b\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
+uses-permission#com.tahakotwal.oneqlick.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c9762bad823fb45e99559595d348265b\transformed\core-1.16.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.16.0] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\c9762bad823fb45e99559595d348265b\transformed\core-1.16.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\01865c91db35985d0d24d2ae7c6e31ad\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\01865c91db35985d0d24d2ae7c6e31ad\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\01865c91db35985d0d24d2ae7c6e31ad\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.1] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\d86f2dd1da8f573637091099b3fc9411\transformed\profileinstaller-1.4.1\AndroidManifest.xml:50:25-92
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1283c6d59bcb7ef2c3f57ef367652794\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1283c6d59bcb7ef2c3f57ef367652794\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1283c6d59bcb7ef2c3f57ef367652794\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] C:\Users\kotwa\.gradle\caches\8.14.3\transforms\1283c6d59bcb7ef2c3f57ef367652794\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74

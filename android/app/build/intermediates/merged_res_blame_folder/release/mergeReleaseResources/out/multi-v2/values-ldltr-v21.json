@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.tahakotwal.oneqlick.app-mergeReleaseResources-57:/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\kotwa\\.gradle\\caches\\8.14.3\\transforms\\2500f2c632ebbb930ce00f1fe06b7270\\transformed\\appcompat-1.7.0\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}
