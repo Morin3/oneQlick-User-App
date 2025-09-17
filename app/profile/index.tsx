@@ -7,6 +7,7 @@ import {
   Animated,
   Alert,
   Share,
+  Modal,
 } from 'react-native';
 import {
   Text,
@@ -19,7 +20,7 @@ import {
 } from 'react-native-paper';
 import { useRouter } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
-import { MaterialIcons } from '@expo/vector-icons';
+import { MaterialIcons, Ionicons } from '@expo/vector-icons';
 import {
   userProfile,
   profileSections,
@@ -35,25 +36,42 @@ export default function ProfileScreen() {
   const [orderUpdates, setOrderUpdates] = useState(true);
   const [offersPromotions, setOffersPromotions] = useState(true);
   const [appNotifications, setAppNotifications] = useState(false);
-  
+
+  // Why Choose Section
+  const [showWhyChoose, setShowWhyChoose] = useState(false);
+  const slideAnim = useRef(new Animated.Value(300)).current;
+
+  useEffect(() => {
+    if (showWhyChoose) {
+      Animated.timing(slideAnim, {
+        toValue: 0,
+        duration: 300,
+        useNativeDriver: true,
+      }).start();
+    } else {
+      Animated.timing(slideAnim, {
+        toValue: 300,
+        duration: 300,
+        useNativeDriver: true,
+      }).start();
+    }
+  }, [showWhyChoose]);
+
   // Animation values
   const headerAnim = useRef(new Animated.Value(0)).current;
   const contentAnim = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
-    // Start animations
     startAnimations();
   }, []);
 
   const startAnimations = () => {
-    // Header slide down animation
     Animated.timing(headerAnim, { 
       toValue: 1, 
       duration: 800, 
       useNativeDriver: true 
     }).start();
     
-    // Content fade in animation
     Animated.timing(contentAnim, { 
       toValue: 1, 
       duration: 1000, 
@@ -65,13 +83,11 @@ export default function ProfileScreen() {
     switch (section.type) {
       case 'navigation':
         if (section.route) {
-          // Handle different routes
           if (section.route === '/profile/addresses') {
             router.push('/profile/addresses');
           } else if (section.route === '/profile/favorites') {
             router.push('/(tabs)/home');
           } else {
-            // Default navigation
             router.push(section.route);
           }
         }
@@ -102,7 +118,6 @@ export default function ProfileScreen() {
         { 
           text: 'Rate Now', 
           onPress: () => {
-            // TODO: Implement app store rating
             Alert.alert('Thank You!', 'Rating feature coming soon!');
           }
         },
@@ -127,7 +142,6 @@ export default function ProfileScreen() {
           text: 'Logout', 
           style: 'destructive',
           onPress: () => {
-            // TODO: Implement logout functionality
             Alert.alert('Logged Out', 'You have been successfully logged out.');
           }
         },
@@ -149,7 +163,6 @@ export default function ProfileScreen() {
         },
       ]}
     >
-      {/* User info */}
       <View style={styles.userInfo}>
         <Text style={styles.userName}>{userProfile.name}</Text>
         <Text style={styles.userEmail}>{userProfile.email}</Text>
@@ -191,7 +204,6 @@ export default function ProfileScreen() {
               <Switch
                 value={section.value as boolean}
                 onValueChange={(value) => {
-                  // Handle toggle changes
                   switch (section.id) {
                     case 'order-updates':
                       setOrderUpdates(value);
@@ -234,19 +246,9 @@ export default function ProfileScreen() {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView} showsVerticalScrollIndicator={false}>
-        {/* Profile Header */}
         {renderProfileHeader()}
         
-        {/* Profile Sections */}
-        <Animated.View 
-          style={[
-            styles.content,
-            {
-              opacity: contentAnim,
-            },
-          ]}
-        >
-          {/* Personal Info Section */}
+        <Animated.View style={[styles.content,{ opacity: contentAnim }]}>
           <View style={styles.sectionGroup}>
             <Text style={styles.sectionGroupTitle}>Personal Information</Text>
             {profileSections
@@ -254,7 +256,6 @@ export default function ProfileScreen() {
               .map(renderProfileSection)}
           </View>
           
-          {/* Account Section */}
           <View style={styles.sectionGroup}>
             <Text style={styles.sectionGroupTitle}>My Account</Text>
             {profileSections
@@ -262,7 +263,6 @@ export default function ProfileScreen() {
               .map(renderProfileSection)}
           </View>
           
-          {/* Orders Section */}
           <View style={styles.sectionGroup}>
             <Text style={styles.sectionGroupTitle}>Orders & History</Text>
             {profileSections
@@ -270,7 +270,6 @@ export default function ProfileScreen() {
               .map(renderProfileSection)}
           </View>
           
-          {/* Notifications Section */}
           <View style={styles.sectionGroup}>
             <Text style={styles.sectionGroupTitle}>Notifications</Text>
             {profileSections
@@ -278,7 +277,6 @@ export default function ProfileScreen() {
               .map(renderProfileSection)}
           </View>
           
-          {/* Support Section */}
           <View style={styles.sectionGroup}>
             <Text style={styles.sectionGroupTitle}>Support</Text>
             {profileSections
@@ -286,7 +284,6 @@ export default function ProfileScreen() {
               .map(renderProfileSection)}
           </View>
           
-          {/* Settings Section */}
           <View style={styles.sectionGroup}>
             <Text style={styles.sectionGroupTitle}>Settings</Text>
             {profileSections
@@ -294,24 +291,22 @@ export default function ProfileScreen() {
               .map(renderProfileSection)}
           </View>
           
-          {/* Share App Section */}
+          {/* Why Choose Section */}
           <View style={styles.sectionGroup}>
-            <Text style={styles.sectionGroupTitle}>App</Text>
+            <Text style={styles.sectionGroupTitle}>About</Text>
             <Pressable
               style={styles.sectionItem}
-              onPress={handleShareApp}
+              onPress={() => setShowWhyChoose(true)}
             >
               <Surface style={styles.sectionSurface}>
                 <View style={styles.sectionHeader}>
                   <View style={styles.sectionIcon}>
-                    <MaterialIcons name="share" size={24} color="#666" />
+                    <MaterialIcons name="star" size={24} color="#666" />
                   </View>
-                  
                   <View style={styles.sectionContent}>
-                    <Text style={styles.sectionTitle}>Share App</Text>
-                    <Text style={styles.sectionSubtitle}>Share oneQlick with friends & family</Text>
+                    <Text style={styles.sectionTitle}>Why Choose OneClick?</Text>
+                    <Text style={styles.sectionSubtitle}>See the best features</Text>
                   </View>
-                  
                   <View style={styles.sectionActions}>
                     <MaterialIcons name="chevron-right" size={24} color="#ccc" />
                   </View>
@@ -320,10 +315,28 @@ export default function ProfileScreen() {
             </Pressable>
           </View>
           
-          {/* App Info */}
+          <View style={styles.sectionGroup}>
+            <Text style={styles.sectionGroupTitle}>App</Text>
+            <Pressable style={styles.sectionItem} onPress={handleShareApp}>
+              <Surface style={styles.sectionSurface}>
+                <View style={styles.sectionHeader}>
+                  <View style={styles.sectionIcon}>
+                    <MaterialIcons name="share" size={24} color="#666" />
+                  </View>
+                  <View style={styles.sectionContent}>
+                    <Text style={styles.sectionTitle}>Share App</Text>
+                    <Text style={styles.sectionSubtitle}>Share oneQlick with friends & family</Text>
+                  </View>
+                  <View style={styles.sectionActions}>
+                    <MaterialIcons name="chevron-right" size={24} color="#ccc" />
+                  </View>
+                </View>
+              </Surface>
+            </Pressable>
+          </View>
+          
           {renderAppInfo()}
           
-          {/* Logout Button */}
           <Button
             mode="outlined"
             onPress={handleLogout}
@@ -334,47 +347,64 @@ export default function ProfileScreen() {
           >
             Logout
           </Button>
-          
-          {/* Bottom spacing */}
           <View style={{ height: 40 }} />
         </Animated.View>
       </ScrollView>
       
-      {/* Language Selection Menu */}
+      {/* Why Choose Modal */}
+      <Modal
+        transparent={true}
+        visible={showWhyChoose}
+        animationType="fade"
+        onRequestClose={() => setShowWhyChoose(false)}
+      >
+        <View style={styles.modalOverlay}>
+          <Animated.View
+            style={[styles.modalContent, { transform: [{ translateY: slideAnim }] }]}
+          >
+            <Text style={styles.modalTitle}>Why Choose OneClick?</Text>
+            <View style={styles.featureBox}>
+              <Ionicons name="fast-food-outline" size={28} color="#ff6600" />
+              <Text style={styles.featureText}>Delicious food from top restaurants</Text>
+            </View>
+            <View style={styles.featureBox}>
+              <Ionicons name="timer-outline" size={28} color="#ff6600" />
+              <Text style={styles.featureText}>Super-fast delivery at your doorstep</Text>
+            </View>
+            <View style={styles.featureBox}>
+              <Ionicons name="card-outline" size={28} color="#ff6600" />
+              <Text style={styles.featureText}>Secure and easy payments</Text>
+            </View>
+            <Pressable onPress={() => setShowWhyChoose(false)}>
+              <Text style={styles.closeButton}>Close</Text>
+            </Pressable>
+          </Animated.View>
+        </View>
+      </Modal>
+
+      {/* Language Menu */}
       <Menu
         visible={showLanguageMenu}
         onDismiss={() => setShowLanguageMenu(false)}
         anchor={<View />}
       >
         <Menu.Item
-          onPress={() => {
-            setSelectedLanguage('English');
-            setShowLanguageMenu(false);
-          }}
+          onPress={() => { setSelectedLanguage('English'); setShowLanguageMenu(false); }}
           title="English"
           leadingIcon="language"
         />
         <Menu.Item
-          onPress={() => {
-            setSelectedLanguage('Hindi');
-            setShowLanguageMenu(false);
-          }}
+          onPress={() => { setSelectedLanguage('Hindi'); setShowLanguageMenu(false); }}
           title="Hindi"
           leadingIcon="language"
         />
         <Menu.Item
-          onPress={() => {
-            setSelectedLanguage('Gujarati');
-            setShowLanguageMenu(false);
-          }}
+          onPress={() => { setSelectedLanguage('Gujarati'); setShowLanguageMenu(false); }}
           title="Gujarati"
           leadingIcon="language"
         />
         <Menu.Item
-          onPress={() => {
-            setSelectedLanguage('Marathi');
-            setShowLanguageMenu(false);
-          }}
+          onPress={() => { setSelectedLanguage('Marathi'); setShowLanguageMenu(false); }}
           title="Marathi"
           leadingIcon="language"
         />
@@ -384,15 +414,8 @@ export default function ProfileScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#f5f5f5',
-  },
-  scrollView: {
-    flex: 1,
-  },
-  
-  // Profile Header Styles
+  container: { flex: 1, backgroundColor: '#f5f5f5' },
+  scrollView: { flex: 1 },
   profileHeader: {
     backgroundColor: 'white',
     paddingHorizontal: 20,
@@ -400,106 +423,34 @@ const styles = StyleSheet.create({
     paddingBottom: 30,
     marginBottom: 20,
     elevation: 1,
-    borderRadius: 0,
   },
-  userInfo: {
-    alignItems: 'center',
-  },
-  userName: {
-    fontSize: 24,
-    fontWeight: 'bold',
-    color: '#333',
-    marginBottom: 8,
-    textAlign: 'center',
-  },
-  userEmail: {
-    fontSize: 16,
-    color: '#666',
-    marginBottom: 4,
-    textAlign: 'center',
-  },
-  userPhone: {
-    fontSize: 16,
-    color: '#666',
-    marginBottom: 16,
-    textAlign: 'center',
-  },
-  
-  content: {
-    padding: 20,
-    paddingTop: 0,
-  },
-  sectionGroup: {
-    marginBottom: 20,
-  },
-  sectionGroupTitle: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    color: '#333',
-    marginBottom: 10,
-  },
-  sectionItem: {
-    marginBottom: 10,
-  },
-  sectionSurface: {
-    borderRadius: 10,
-    elevation: 2,
-    backgroundColor: '#fff',
-  },
-  sectionHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: 15,
-    paddingBottom: 10,
-  },
-  sectionIcon: {
-    width: 40,
-    alignItems: 'center',
-  },
-  sectionContent: {
-    flex: 1,
-    marginLeft: 10,
-  },
-  sectionTitle: {
-    fontSize: 16,
-    fontWeight: '600',
-    color: '#333',
-    marginBottom: 2,
-  },
-  sectionSubtitle: {
-    fontSize: 13,
-    color: '#666',
-    marginBottom: 2,
-  },
-  sectionDescription: {
-    fontSize: 12,
-    color: '#666',
-    marginTop: 2,
-  },
-  sectionActions: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    marginTop: 5,
-  },
-  badgeChip: {
-    backgroundColor: '#FF6B35',
-  },
-  selectValue: {
-    fontSize: 14,
-    color: '#666',
-  },
-  
-  appInfo: {
-    alignItems: 'center',
-    paddingVertical: 20,
-  },
-  appInfoText: {
-    fontSize: 12,
-    color: '#999',
-  },
-  logoutButton: {
-    borderColor: '#F44336',
-  },
-}); 
+  userInfo: { alignItems: 'center' },
+  userName: { fontSize: 24, fontWeight: 'bold', color: '#333', marginBottom: 8, textAlign: 'center' },
+  userEmail: { fontSize: 16, color: '#666', marginBottom: 4, textAlign: 'center' },
+  userPhone: { fontSize: 16, color: '#666', marginBottom: 16, textAlign: 'center' },
+  content: { padding: 20, paddingTop: 0 },
+  sectionGroup: { marginBottom: 20 },
+  sectionGroupTitle: { fontSize: 18, fontWeight: 'bold', color: '#333', marginBottom: 10 },
+  sectionItem: { marginBottom: 10 },
+  sectionSurface: { borderRadius: 10, elevation: 2, backgroundColor: '#fff' },
+  sectionHeader: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', padding: 15, paddingBottom: 10 },
+  sectionIcon: { width: 40, alignItems: 'center' },
+  sectionContent: { flex: 1, marginLeft: 10 },
+  sectionTitle: { fontSize: 16, fontWeight: '600', color: '#333', marginBottom: 2 },
+  sectionSubtitle: { fontSize: 13, color: '#666', marginBottom: 2 },
+  sectionDescription: { fontSize: 12, color: '#666', marginTop: 2 },
+  sectionActions: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginTop: 5 },
+  badgeChip: { backgroundColor: '#FF6B35' },
+  selectValue: { fontSize: 14, color: '#666' },
+  appInfo: { alignItems: 'center', paddingVertical: 20 },
+  appInfoText: { fontSize: 12, color: '#999' },
+  logoutButton: { borderColor: '#F44336' },
+
+  // Modal Styles
+  modalOverlay: { flex: 1, justifyContent: 'flex-end', backgroundColor: 'rgba(0,0,0,0.5)' },
+  modalContent: { backgroundColor: '#fff', padding: 20, borderTopLeftRadius: 20, borderTopRightRadius: 20 },
+  modalTitle: { fontSize: 20, fontWeight: 'bold', marginBottom: 15 },
+  featureBox: { flexDirection: 'row', alignItems: 'center', marginBottom: 12 },
+  featureText: { marginLeft: 10, fontSize: 16 },
+  closeButton: { marginTop: 15, textAlign: 'center', color: '#ff6600', fontWeight: 'bold' },
+});
