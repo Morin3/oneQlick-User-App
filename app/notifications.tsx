@@ -28,7 +28,7 @@ export default function NotificationsScreen() {
   const [notifications, setNotifications] = useState<Notification[]>([]);
   const [unreadCount, setUnreadCount] = useState(0);
   const [refreshing, setRefreshing] = useState(false);
-  const [selectedFilter, setSelectedFilter] = useState<'all' | 'unread' | 'order' | 'offer'>('all');
+  const [selectedFilter, setSelectedFilter] = useState<'all' | 'unread'>('all');
 
   useEffect(() => {
     loadNotifications();
@@ -119,7 +119,7 @@ export default function NotificationsScreen() {
     }
 
     if (notification.actionUrl) {
-      router.push(notification.actionUrl);
+      router.push(notification.actionUrl as any);
     }
   };
 
@@ -208,10 +208,10 @@ export default function NotificationsScreen() {
     switch (selectedFilter) {
       case 'unread':
         return notifications.filter(n => !n.isRead);
-      case 'order':
-        return notifications.filter(n => n.type === 'order');
-      case 'offer':
-        return notifications.filter(n => n.type === 'offer');
+      // case 'order':
+        // return notifications.filter(n => n.type === 'order');
+      // case 'offer':
+        // return notifications.filter(n => n.type === 'offer');
       default:
         return notifications;
     }
@@ -355,8 +355,8 @@ export default function NotificationsScreen() {
         >
           {renderFilterButton('all', 'All', 'view-list')}
           {renderFilterButton('unread', 'Unread', 'bell-ring')}
-          {renderFilterButton('order', 'Orders', 'truck-delivery')}
-          {renderFilterButton('offer', 'Offers', 'sale')}
+          {/* {renderFilterButton('order', 'Orders', 'truck-delivery')} */}
+          {/* {renderFilterButton('offer', 'Offers', 'sale')} */}
         </ScrollView>
       </View>
       
