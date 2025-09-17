@@ -1,1 +1,2 @@
-export { default as RestaurantCard } from './RestaurantCard'; 
+// Restaurant Components Export
+export { default as RestaurantCard } from './RestaurantCard';
