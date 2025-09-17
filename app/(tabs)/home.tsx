@@ -22,6 +22,7 @@ import {
   NearbyRestaurants,
   PopularDishes,
 } from '../../components/home';
+import { Reviews } from '../../components/common';
 import Carousel from '../../components/home/Carousel';
 import { carouselItems } from '../../components/home/carouselData';
 import {
@@ -30,7 +31,6 @@ import {
   popularDishes,
 } from '../../components/home/homeData';
 import { DesignSystem } from '../../constants/designSystem';
-import { GlobalStyles } from '../../styles/globalStyles';
 import { AppIcon } from '../../components/ui';
 
 export default function HomeScreen() {
@@ -112,7 +112,7 @@ export default function HomeScreen() {
           'Please turn on your device location and try again.',
           [
             { text: 'Cancel', style: 'cancel' },
-            { text: 'Try Again', onPress: () => handleLocationPress() }
+            { text: 'Try Again', onPress: () => { handleLocationPress(); } }
           ]
         );
       }
@@ -335,82 +335,52 @@ export default function HomeScreen() {
             <Text style={styles.testimonialSectionTitle}>What our customers say</Text>
           </View>
           
-          <ScrollView 
-            horizontal 
-            showsHorizontalScrollIndicator={false}
-            contentContainerStyle={styles.testimonialsContainer}
-            decelerationRate="fast"
-            snapToInterval={300}
-            snapToAlignment="start"
-          >
-            {[
+          <Reviews
+            reviews={[
               {
                 id: 1,
-                name: "Priya Sharma",
+                reviewerName: "Priya Sharma",
                 rating: 5,
-                text: "Amazing food quality and super fast delivery! oneQlick has become my go-to app for ordering food.",
+                comment: "Amazing food quality and super fast delivery! oneQlick has become my go-to app for ordering food.",
                 order: "Pizza & Pasta",
                 location: "Mumbai",
                 bgColor: '#FF6B35'
               },
               {
                 id: 2,
-                name: "Rajesh Kumar",
+                reviewerName: "Rajesh Kumar",
                 rating: 5,
-                text: "Love the variety of restaurants available. The app is user-friendly and delivery is always on time.",
+                comment: "Love the variety of restaurants available. The app is user-friendly and delivery is always on time.",
                 order: "Biryani Special",
                 location: "Delhi",
                 bgColor: '#4CAF50'
               },
               {
                 id: 3,
-                name: "Anjali Mehta",
+                reviewerName: "Anjali Mehta",
                 rating: 4,
-                text: "Fresh ingredients, hygienic packaging, and excellent customer support. The offers are amazing too!",
+                comment: "Fresh ingredients, hygienic packaging, and excellent customer support. The offers are amazing too!",
                 order: "Healthy Bowl",
                 location: "Bangalore",
                 bgColor: '#2196F3'
               },
               {
                 id: 4,
-                name: "Vikram Singh",
+                reviewerName: "Vikram Singh",
                 rating: 5,
-                text: "Best food delivery app I've used! Wide range of cuisines and the quality is consistently good.",
+                comment: "Best food delivery app I've used! Wide range of cuisines and the quality is consistently good.",
                 order: "South Indian Thali",
                 location: "Chennai",
                 bgColor: '#9C27B0'
               }
-            ].map((review, index) => (
-              <View key={review.id} style={[styles.testimonialCard, { marginLeft: index === 0 ? 16 : 8, marginRight: 8 }]}>
-                <View style={styles.quoteIcon}>
-                  <MaterialCommunityIcons name="format-quote-open" size={20} color={review.bgColor} />
-                </View>
-                
-                <Text style={styles.testimonialText}>"{review.text}"</Text>
-                
-                <View style={styles.testimonialFooter}>
-                  <View style={[styles.userAvatar, { backgroundColor: review.bgColor }]}>
-                    <Text style={styles.userInitial}>{review.name.charAt(0)}</Text>
-                  </View>
-                  <View style={styles.userInfo}>
-                    <Text style={styles.userName}>{review.name}</Text>
-                    <View style={styles.ratingContainer}>
-                      {[1,2,3,4,5].map((star) => (
-                        <MaterialCommunityIcons 
-                          key={star} 
-                          name="star" 
-                          size={12} 
-                          color={star <= review.rating ? "#FFD700" : "#E0E0E0"} 
-                        />
-                      ))}
-                    </View>
-                    <Text style={styles.orderInfo}>Ordered {review.order} • {review.location}</Text>
-                  </View>
-                </View>
-              </View>
-            ))}
-            <View style={{ width: 16 }} />
-          </ScrollView>
+            ]}
+            title=""
+            showCount={false}
+            variant="card"
+            showOrderInfo={true}
+            showLocation={true}
+            horizontal={true}
+          />
         </View>
 
         {/* Enhanced Made in India Footer Section */}
@@ -793,62 +763,6 @@ const styles = StyleSheet.create({
   },
   testimonialsContainer: {
     paddingRight: 16,
-  },
-  testimonialCard: {
-    backgroundColor: 'white',
-    borderRadius: 16,
-    padding: 20,
-    width: 280,
-    borderWidth: 1,
-    borderColor: '#f0f0f0',
-  },
-  quoteIcon: {
-    alignSelf: 'flex-start',
-    marginBottom: 12,
-  },
-  testimonialText: {
-    fontSize: 14,
-    color: '#333',
-    lineHeight: 22,
-    fontStyle: 'italic',
-    fontWeight: '500',
-    marginBottom: 20,
-  },
-  testimonialFooter: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  userAvatar: {
-    width: 44,
-    height: 44,
-    borderRadius: 22,
-    justifyContent: 'center',
-    alignItems: 'center',
-    marginRight: 12,
-  },
-  userInitial: {
-    fontSize: 18,
-    fontWeight: '700',
-    color: 'white',
-  },
-  userInfo: {
-    flex: 1,
-  },
-  userName: {
-    fontSize: 15,
-    fontWeight: '700',
-    color: '#1a1a1a',
-    marginBottom: 4,
-  },
-  ratingContainer: {
-    flexDirection: 'row',
-    gap: 2,
-    marginBottom: 4,
-  },
-  orderInfo: {
-    fontSize: 12,
-    color: '#666',
-    fontWeight: '500',
   },
 // Enhanced Footer Section Styles
   enhancedFooterSection: {
