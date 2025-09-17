@@ -5,8 +5,12 @@ export default function Index() {
   const router = useRouter();
 
   useEffect(() => {
-    // Direct to login screen immediately
-    router.replace('/(auth)/login');
+    // Small delay to ensure Root Layout is mounted before navigation
+    const timer = setTimeout(() => {
+      router.replace('/(auth)/login');
+    }, 100);
+
+    return () => clearTimeout(timer);
   }, [router]);
 
   return null;
